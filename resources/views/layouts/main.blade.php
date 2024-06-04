@@ -13,13 +13,12 @@
         rel="stylesheet">
     <title>{{ $title }}</title>
 </head>
-<body class="dark:bg-[#030617] font-poppins">
+<body class="bg-oldNavy font-poppins">
 
     @include('partials.navbar')
 
-    <div class="">  
+
         @yield('container')
-      </div>
 
 </body>
 </html>

@@ -105,7 +105,7 @@
   <main id="content">
     <!-- Hero -->
     <div class="bg-neutral-900">
-      <div class="max-w-5xl px-4 pt-24 pb-24 mx-auto xl:px-0 lg:pt-32">
+      <div class="max-w-5xl px-4 pt-24 pb-24 mx-auto xl xl:px-0 lg:pt-32">
         <h1 class="text-5xl font-semibold text-white md:text-6xl">
           <span class="text-[#ff0]">Preline Agency:</span> Transforming ideas into reality
         </h1>
