@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,100;1,700&display=swap"
         rel="stylesheet">
     <title>{{ $title }}</title>
 </head>
-<body class="dark:bg-[#030617] font-poppins">
+<body class="bg-oldNavy font-poppins">
 
     @include('partials.navbar')
 
-    <div class="">  
+
         @yield('container')
-      </div>
 
 </body>
 </html>
