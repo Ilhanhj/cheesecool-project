@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 
 Route::get('/', function () {
     return view('/index',[
@@ -20,7 +21,16 @@ Route::get('/template-1', function () {
     ]);
 });
 
+Route::get('/login', function () {
+    return view('login.index', [
+        'title' => 'CheeseCool Login'
+    ]);
+})->middleware('guest')->name('login');
+
+Route::post('/login', [LoginController::class, 'authenticate']);
+
 Route::get('/template-2', function () {
     return view('/template-2',[
         'title' => 'Template 2'
-    ]);});
+    ]);
+});
