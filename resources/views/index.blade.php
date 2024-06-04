@@ -1,7 +1,6 @@
 @extends('layouts.main')
 
 
-
 <!-- ========== HERO ========== -->
 <div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
   @section('container')
@@ -29,6 +28,7 @@
           <!-- End Buttons -->
         </div>
       </div>
+
     <!-- ========== END HERO ========== -->
     
     <!-- ========== ABOUT ========== -->
