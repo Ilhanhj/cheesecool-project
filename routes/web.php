@@ -8,13 +8,13 @@ Route::get('/', function () {
     return view('/index',[
         'title' => 'Cheesecool University '
     ]);
-});
+})->name('index');
 
 Route::get('/team', function () {
     return view('/team',[
         'title' => 'The Developer | Team '
     ]);
-});
+})->name('team');
 
 
 Route::get('/register', function () {
