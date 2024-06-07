@@ -39,19 +39,19 @@
       <div id="navbar-collapse-with-animation" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6">
         <div class="flex flex-col mt-5 gap-y-4 gap-x-0 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="#tentang" aria-current="page">TENTANG</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#tentang" aria-current="page">TENTANG</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="#jurusan">JURUSAN</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#jurusan">JURUSAN</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="#whyus">WHY US</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#whyus">WHY US</a>
           </div>
           <div>
             <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="/team">TEAM</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="#contact">CONTACT</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#contact">CONTACT</a>
           </div>
         </div>
       </div>

@@ -10,11 +10,11 @@
               </a>
             </div>
                     <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-neutral-200">
-                        <li><a href="#tentang" class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">TENTANG</a></li>
-                        <li><a href="#jurusan" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">JURUSAN</a></li>
-                        <li><a href="#whyus" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">WHY US</a></li>
+                        <li><a href="{{ route('index') }}#tentang" class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">TENTANG</a></li>
+                        <li><a href="{{ route('index') }}#jurusan" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">JURUSAN</a></li>
+                        <li><a href="{{ route('index') }}#whyus" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">WHY US</a></li>
                         <li><a href="/team" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">TEAM</a></li>
-                        <li><a href="#contact" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">CONTACT</a></li>
+                        <li><a href="{{ route('index') }}#contact" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">CONTACT</a></li>
                     </ul>
                     <div class="flex space-x-10 justify-center items-center mb-14">
                         <a href="#" class="block  text-purple-600 transition-all duration-500 hover:text-indigo-600 ">
