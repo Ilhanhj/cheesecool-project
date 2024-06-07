@@ -7,12 +7,10 @@
     <div class="py-10">
         <div class="container px-6 mx-auto md:px-12 xl:px-32">
           <div class="mb-16">
-            <h2 class="mb-4 text-2xl font-bold text-center text-gray-800 dark:text-white md:text-4xl">
-              Tailus blocks leadership
-            </h2>
-            <p class="text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12">
-              Tailus prides itself not only on award-winning technology, but also on the talent of its
-              people of some of the brightest minds and most experienced executives in business.
+            <h2 class="mb-4 text-2xl font-bold text-center text-gray-800 dark:text-white md:text-4xl lg:text-5xl">
+              <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text"> Epik Kreatifitas Duo           </span></h2>
+            <p class="text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12 text-center">
+              Dibuat oleh dua mahasiswa yang kreatif dan cerdas,  kami menggabungkan pemikiran kreatif  untuk menghasilkan fusion ide-ide luar biasa. 
             </p>
           </div>
           <div class="grid items-center gap-12 md:grid-cols-3">
@@ -67,6 +65,7 @@
       </div>
                                           
   </div>
+
 
 
                                         
