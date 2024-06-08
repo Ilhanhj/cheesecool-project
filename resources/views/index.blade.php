@@ -234,6 +234,99 @@
     <!-- ========== END JURUSAN ========== -->
 
     <!-- ========== WHY US ========== -->
+    <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
+        <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
+            <div class="relative w-full text-center lg:text-left lg:w-full">
+                <h2 class="font-bold text-3xl text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
+            </div>
+            <div class="w-full text-center lg:text-left">
+                <p class="text-lg font-normal text-gray-500 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
+            </div>
+        </div>
+        <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+            <!-- Kurikulum Up-To-Date -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path d="M12 4C14.7486 4 17.1749 5.38626 18.6156 7.5H16V9.5H22V3.5H20V5.99936C18.1762 3.57166 15.2724 2 12 2C6.47715 2 2 6.47715 2 12H4C4 7.58172 7.58172 4 12 4ZM20 12C20 16.4183 16.4183 20 12 20C9.25144 20 6.82508 18.6137 5.38443 16.5H8V14.5H2V20.5H4V18.0006C5.82381 20.4283 8.72764 22 12 22C17.5228 22 22 17.5228 22 12H20Z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Kurikulum Up-To-Date</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Mata kuliah kami selalu mengikuti perkembangan industri, memastikan keterampilan lulusan tetap relevan.</p>
+            </div>
+            <!-- Dosen Berpengalaman -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path d="M17 13C19.2091 13 21 14.7909 21 17C21 19.2091 19.2091 21 17 21C14.7909 21 13 19.2091 13 17H11C11 19.2091 9.20914 21 7 21C4.79086 21 3 19.2091 3 17C3 14.7909 4.79086 13 7 13C8.48052 13 9.77317 13.8043 10.4648 14.9999H13.5352C14.2268 13.8043 15.5195 13 17 13ZM7 15C5.89543 15 5 15.8954 5 17C5 18.1046 5.89543 19 7 19C8.10457 19 9 18.1046 9 17C9 15.8954 8.10457 15 7 15ZM17 15C15.8954 15 15 15.8954 15 17C15 18.1046 15.8954 19 17 19C18.1046 19 19 18.1046 19 17C19 15.8954 18.1046 15 17 15ZM16 3C18.2091 3 20 4.79086 20 7V10H22V12H2V10H4V7C4 4.79086 5.79086 3 8 3H16ZM16 5H8C6.94564 5 6 5.95 6 7V10H18V7C18 5.94564 17.05 5 16 5Z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Dosen Berpengalaman</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Pengajaran oleh dosen ahli berpengalaman, memberikan bimbingan berkualitas tinggi dan wawasan praktis.</p>
+            </div>
+                <!-- Fasilitas Canggih -->
+                <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path d="M13.5 2C13.5 2.44425 13.3069 2.84339 13 3.11805V5H18C19.6569 5 21 6.34315 21 8V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V8C3 6.34315 4.34315 5 6 5H11V3.11805C10.6931 2.84339 10.5 2.44425 10.5 2C10.5 1.17157 11.1716 0.5 12 0.5C12.8284 0.5 13.5 1.17157 13.5 2ZM6 7C5.44772 7 5 7.44772 5 8V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V8C19 7.44772 18.5523 7 18 7H13H11H6ZM2 10H0V16H2V10ZM22 10H24V16H22V10ZM9 14.5C9.82843 14.5 10.5 13.8284 10.5 13C10.5 12.1716 9.82843 11.5 9 11.5C8.17157 11.5 7.5 12.1716 7.5 13C7.5 13.8284 8.17157 14.5 9 14.5ZM15 14.5C15.8284 14.5 16.5 13.8284 16.5 13C16.5 12.1716 15.8284 11.5 15 11.5C14.1716 11.5 13.5 12.1716 13.5 13C13.5 13.8284 14.1716 14.5 15 14.5Z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Fasilitas Canggih</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Laboratorium riset modern dan teknologi canggih kami mendukung inovasi dan penelitian mutakhir mahasiswa.</p>
+            </div>
+            <!-- Koneksi Industri Kuat -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path d="M19 2H9c-1.103 0-2 .897-2 2v6H5c-1.103 0-2 .897-2 2v9a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4c0-1.103-.897-2-2-2zM5 12h6v8H5v-8zm14 8h-6v-8c0-1.103-.897-2-2-2H9V4h10v16z"></path>
+                        <path d="M11 6h2v2h-2zm4 0h2v2h-2zm0 4.031h2V12h-2zM15 14h2v2h-2zm-8 .001h2v2H7z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Koneksi Industri Kuat</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Kerjasama dengan perusahaan terkemuka menyediakan peluang magang, proyek kolaboratif, dan jaringan profesional luas.</p>
+            </div>
+        </div>
+        <div class="mt-11 flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+            <!-- Organisasi Beragam -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path d="M8.5 7C8.5 8.10457 7.60457 9 6.5 9C5.39543 9 4.5 8.10457 4.5 7C4.5 5.89543 5.39543 5 6.5 5C7.60457 5 8.5 5.89543 8.5 7ZM2.5 7C2.5 9.20914 4.29086 11 6.5 11C8.70914 11 10.5 9.20914 10.5 7C10.5 4.79086 8.70914 3 6.5 3C4.29086 3 2.5 4.79086 2.5 7ZM9 16.5C9 15.1193 7.88071 14 6.5 14C5.11929 14 4 15.1193 4 16.5V19H9V16.5ZM11 21H2V16.5C2 14.0147 4.01472 12 6.5 12C8.98528 12 11 14.0147 11 16.5V21ZM19.5 7C19.5 8.10457 18.6046 9 17.5 9C16.3954 9 15.5 8.10457 15.5 7C15.5 5.89543 16.3954 5 17.5 5C18.6046 5 19.5 5.89543 19.5 7ZM13.5 7C13.5 9.20914 15.2909 11 17.5 11C19.7091 11 21.5 9.20914 21.5 7C21.5 4.79086 19.7091 3 17.5 3C15.2909 3 13.5 4.79086 13.5 7ZM20 16.5C20 15.1193 18.8807 14 17.5 14C16.1193 14 15 15.1193 15 16.5V19H20V16.5ZM13 19V16.5C13 14.0147 15.0147 12 17.5 12C19.9853 12 22 14.0147 22 16.5V21H13V19Z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Organisasi Beragam</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Tersedia berbagai organisasi dan klub mahasiswa untuk mengembangkan minat dan bakat di luar akademik.</p>
+            </div>
+            <!-- Jaringan Alumni -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path d="M11.8611 2.39057C12.8495 1.73163 14.1336 1.71797 15.1358 2.35573L19.291 4.99994H20.9998C21.5521 4.99994 21.9998 5.44766 21.9998 5.99994V14.9999C21.9998 15.5522 21.5521 15.9999 20.9998 15.9999H19.4801C19.5396 16.9472 19.0933 17.9102 18.1955 18.4489L13.1021 21.505C12.4591 21.8907 11.6609 21.8817 11.0314 21.4974C10.3311 22.1167 9.2531 22.1849 8.47104 21.5704L3.33028 17.5312C2.56387 16.9291 2.37006 15.9003 2.76579 15.0847C2.28248 14.7057 2 14.1254 2 13.5109V6C2 5.44772 2.44772 5 3 5H7.94693L11.8611 2.39057ZM4.17264 13.6452L4.86467 13.0397C6.09488 11.9632 7.96042 12.0698 9.06001 13.2794L11.7622 16.2518C12.6317 17.2083 12.7903 18.6135 12.1579 19.739L17.1665 16.7339C17.4479 16.5651 17.5497 16.2276 17.4448 15.9433L13.0177 9.74551C12.769 9.39736 12.3264 9.24598 11.9166 9.36892L9.43135 10.1145C8.37425 10.4316 7.22838 10.1427 6.44799 9.36235L6.15522 9.06958C5.58721 8.50157 5.44032 7.69318 5.67935 7H4V13.5109L4.17264 13.6452ZM14.0621 4.04306C13.728 3.83047 13.3 3.83502 12.9705 4.05467L7.56943 7.65537L7.8622 7.94814C8.12233 8.20827 8.50429 8.30456 8.85666 8.19885L11.3419 7.45327C12.5713 7.08445 13.8992 7.53859 14.6452 8.58303L18.5144 13.9999H19.9998V6.99994H19.291C18.9106 6.99994 18.5381 6.89148 18.2172 6.68727L14.0621 4.04306ZM6.18168 14.5448L4.56593 15.9586L9.70669 19.9978L10.4106 18.7659C10.6256 18.3897 10.5738 17.9178 10.2823 17.5971L7.58013 14.6247C7.2136 14.2215 6.59175 14.186 6.18168 14.5448Z"></path></svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Jaringan Alumni</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Jaringan alumni yang luas membantu memperluas peluang karir dan koneksi profesional.</p>
+            </div>
+                <!-- Kampus Nyaman -->
+                <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                    <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><circle cx="8.5" cy="9.5" r="1.5"></circle><circle cx="15.493" cy="9.493" r="1.493"></circle><path d="M12 18c5 0 6-5 6-5H6s1 5 6 5z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Kampus Nyaman</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Lingkungan kampus yang modern dan nyaman mendukung kegiatan akademik dan sosial, ciptakan suasana belajar kondusif.</p>
+            </div>
+            <!-- Program Internasional -->
+            <div class="group relative w-full border border-purple-600 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="border border-purple-600 rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
+                    <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                       <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-semibold text-purple-600 mb-3 capitalize transition-all duration-500 group-hover:text-white">Program Internasional</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Kesempatan untuk belajar di luar negeri dan program pertukaran pelajar, memberikan pengalaman global yang berharga.</p>
+            </div>
+        </div>
+    </div>                                    
     <!-- ========== END WHY US ========== -->
 
     <!-- ========== ALUR PENDAFTARAN ========== -->
