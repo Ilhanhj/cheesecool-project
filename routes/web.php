@@ -32,6 +32,13 @@ Route::get('/login', function () {
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/register', [RegisterController::class, 'authenticate']);
 
+Route::get('/dashboard', function(){
+    return view('dashboard.index', [
+        'title' => 'Cheesecool | Dashboard'
+    ]);
+    });
+
+
 Route::get('/template-1', function () {
     return view('/template-1',[
         'title' => 'Template 1'

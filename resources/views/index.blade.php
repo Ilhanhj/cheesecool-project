@@ -8,7 +8,7 @@
       
           <!-- Title -->
           <div class="max-w-5xl mx-auto mt-5 leading-8 text-center ">
-            <h1 class="block text-3xl font-bold text-white md:text-5xl lg:text-6xl ">
+            <h1 class="block text-3xl font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent md:text-5xl lg:text-6xl ">
               Selamat datang di Universitas <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text">Terbaik di Indonesia</span>
             </h1>
           </div>
@@ -31,7 +31,7 @@
     <!-- ========== END HERO ========== -->
     
     <!-- ========== PARTNERS ========== -->
-    <div class="relative overflow-hidden  lg:pt-6 bg-oldNavy ">
+    <div class="relative overflow-hidden  lg:py-6 bg-oldNavy ">
   <div class="relative z-10 ">
     <div class="max-w-5xl px-4 xl:px-0 mx-auto">
 
@@ -52,7 +52,7 @@
     <!-- ========== END PARTNERS ========== -->
 
     <!-- ========== ABOUT ========== -->
-<div class="relative overflow-hidden before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg- before:bg-no-repeat before:bg-opacity-10 before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="tentang">
+<div class="relative overflow-hidden before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowTop before:bg-no-repeat before:bg-opacity-10 before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="tentang">
   <div class="max-w-[85rem] px-4 sm:px-6 lg:px-14 mx-auto">
     <div class="relative p-6 md:p-16" >
     <!-- Grid -->
@@ -60,8 +60,8 @@
         <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
     <!-- Start Title -->
     <div class="max-w-5xl mx-auto mt-5 leading-8  text-center lg:text-start ">
-      <h1 class="block text-2xl font-bold text-white md:text-3xl lg:text-4xl ">
-      <span class="font-bold  text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Tentang Cheescool University </span>
+      <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl ">
+      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20">Tentang Cheescool University </span>
       </h1>
     </div>
     <!-- End Title -->
@@ -140,7 +140,7 @@
     <!-- ========== END ABOUT ========== -->
 
     <!-- ========== JURUSAN ========== -->
-    <div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="jurusan">
+<div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="jurusan">
     <!-- Start Title -->
       <div class="max-w-xl mx-auto mt-5 leading-8 text-center ">
         <h1 class="block text-2xl font-bold text-white md:text-4xl lg:text-5xl ">
@@ -153,7 +153,7 @@
         <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400"> Berbagai program studi unggulan dengan kurikulum yang terbaik.</p>
       </div>
     <!-- Icon Blocks -->
-<div class="max-w-[85rem] px-10 py-10 sm:px-6 lg:px-32 lg:py-14 mx-auto">
+  <div class="max-w-[85rem] px-10 py-10 sm:px-6 lg:px-32 lg:py-14 mx-auto">
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center lg:justify-center  gap-12">
     <!-- Icon Block --> 
     <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
@@ -228,8 +228,6 @@
 
   </div>
 </div>
-    <!-- End Icon Blocks -->
-
     </div>
     <!-- ========== END JURUSAN ========== -->
 
