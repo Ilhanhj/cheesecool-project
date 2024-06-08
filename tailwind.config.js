@@ -30,6 +30,7 @@ export default {
                 squaredBg: "url('/public/images/squared-bg-element-3.png')",
                 glowCenter: "url('/public/images/glowCenter.png')",
                 glowRect: "url('/public/images/glowRect3.png')",
+                glowRectBig: "url('/public/images/glowRect2.png')",
                 balls: "url('/public/images/balls-2.png')",
                 rect: "url('/public/images/rect.png')",
             },
