@@ -61,7 +61,7 @@
     <!-- Start Title -->
     <div class="max-w-5xl mx-auto mt-5 leading-8  text-center lg:text-start ">
       <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl ">
-      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20">Tentang Cheescool University </span>
+      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20">Tentang Cheesecool University </span>
       </h1>
     </div>
     <!-- End Title -->
@@ -236,10 +236,10 @@
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
-                <h2 class="font-bold text-3xl text-transparent from-pink-600 via-purple-800 to-pink-800 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
+                <h2 class="font-bold lg:text-4xl sm:text-3xl text-transparent from-pink-600 via-purple-800 to-pink-800 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
             </div>
             <div class="w-full text-center lg:text-left">
-                <p class="text-lg font-normal text-gray-500 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
+                <p class="text-lg font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
@@ -330,6 +330,127 @@
     <!-- ========== END WHY US ========== -->
 
     <!-- ========== ALUR PENDAFTARAN ========== -->
+    <div class="px-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Alur Pendaftaran</h2>
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-400 lg:text-xl lg:leading-8">
+                Kesempatan gratis menjadi professor dengan empat langkah
+            </p>
+        </div>
+        <ul class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+            <li class="flex-start group relative flex lg:flex-col">
+                <span
+                    class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                    aria-hidden="true"></span>
+                <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                        <path d="M17.6567 14.8284L16.2425 13.4142L17.6567 12C19.2188 10.4379 19.2188 7.90524 17.6567 6.34314C16.0946 4.78105 13.5619 4.78105 11.9998 6.34314L10.5856 7.75736L9.17139 6.34314L10.5856 4.92893C12.9287 2.58578 16.7277 2.58578 19.0709 4.92893C21.414 7.27208 21.414 11.0711 19.0709 13.4142L17.6567 14.8284ZM14.8282 17.6569L13.414 19.0711C11.0709 21.4142 7.27189 21.4142 4.92875 19.0711C2.5856 16.7279 2.5856 12.9289 4.92875 10.5858L6.34296 9.17157L7.75717 10.5858L6.34296 12C4.78086 13.5621 4.78086 16.0948 6.34296 17.6569C7.90506 19.2189 10.4377 19.2189 11.9998 17.6569L13.414 16.2426L14.8282 17.6569ZM14.8282 7.75736L16.2425 9.17157L9.17139 16.2426L7.75717 14.8284L14.8282 7.75736Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                        Daftar melalui Website
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Website resmi  <a href = https://baleehash.github.io/portfolio-website><span class="text-blue-500"> "Cheesecooluniversity.com"</span> </a>selain itu palsu.</h4>
+                </div>
+            </li>
+            <li class="flex-start group relative flex lg:flex-col">
+                <span
+                    class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                    aria-hidden="true"></span>
+                    <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                        <path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM6.02332 15.4163C7.49083 17.6069 9.69511 19 12.1597 19C14.6243 19 16.8286 17.6069 18.2961 15.4163C16.6885 13.9172 14.5312 13 12.1597 13C9.78821 13 7.63095 13.9172 6.02332 15.4163ZM12 11C13.6569 11 15 9.65685 15 8C15 6.34315 13.6569 5 12 5C10.3431 5 9 6.34315 9 8C9 9.65685 10.3431 11 12 11Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                        Profil Biodata
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Isi data diri anda dengan benar sesuai dengan kartu identitas yang dimiliki.</h4>
+                </div>
+            </li>
+            <li class="flex-start group relative flex lg:flex-col">
+                <span
+                    class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                    aria-hidden="true"></span>
+                    <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                          <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                        Pilih Jurusan
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Tentukan pada bidang apa, anda akan membangun karir yang gemilang.</h4>
+                </div>
+            </li>
+            <li class="flex-start group relative flex lg:flex-col">
+                <span
+                    class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                    aria-hidden="true"></span>
+                    <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                        <path d="M12 2C12.5523 2 13 2.44772 13 3V6C13 6.55228 12.5523 7 12 7C11.4477 7 11 6.55228 11 6V3C11 2.44772 11.4477 2 12 2ZM12 17C12.5523 17 13 17.4477 13 18V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V18C11 17.4477 11.4477 17 12 17ZM22 12C22 12.5523 21.5523 13 21 13H18C17.4477 13 17 12.5523 17 12C17 11.4477 17.4477 11 18 11H21C21.5523 11 22 11.4477 22 12ZM7 12C7 12.5523 6.55228 13 6 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H6C6.55228 11 7 11.4477 7 12ZM19.0711 19.0711C18.6805 19.4616 18.0474 19.4616 17.6569 19.0711L15.5355 16.9497C15.145 16.5592 15.145 15.9261 15.5355 15.5355C15.9261 15.145 16.5592 15.145 16.9497 15.5355L19.0711 17.6569C19.4616 18.0474 19.4616 18.6805 19.0711 19.0711ZM8.46447 8.46447C8.07394 8.85499 7.44078 8.85499 7.05025 8.46447L4.92893 6.34315C4.53841 5.95262 4.53841 5.31946 4.92893 4.92893C5.31946 4.53841 5.95262 4.53841 6.34315 4.92893L8.46447 7.05025C8.85499 7.44078 8.85499 8.07394 8.46447 8.46447ZM4.92893 19.0711C4.53841 18.6805 4.53841 18.0474 4.92893 17.6569L7.05025 15.5355C7.44078 15.145 8.07394 15.145 8.46447 15.5355C8.85499 15.9261 8.85499 16.5592 8.46447 16.9497L6.34315 19.0711C5.95262 19.4616 5.31946 19.4616 4.92893 19.0711ZM15.5355 8.46447C15.145 8.07394 15.145 7.44078 15.5355 7.05025L17.6569 4.92893C18.0474 4.53841 18.6805 4.53841 19.0711 4.92893C19.4616 5.31946 19.4616 5.95262 19.0711 6.34315L16.9497 8.46447C16.5592 8.85499 15.9261 8.85499 15.5355 8.46447Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                       Validasi Data
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Tunggu informasi dari admin, data sedang di verifikasi.</h4>
+                </div>
+            </li>
+            <li class="flex-start group relative flex lg:flex-col">
+                <span
+                    class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                    aria-hidden="true"></span>
+                    <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                        <path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                        Kerjakan Test
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Karena Gratis sebagai gantinya kami memilih beberapa orang terpilih dan pantas.</h4>
+                </div>
+            </li>
+            <li class="flex-start group relative flex lg:flex-col">
+               <div
+                    class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-purple-600 bg-oldNavy transition-all duration-200 group-hover:border-gray-900 group-hover:bg-purple-600">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-purple-600 group-hover:text-white">
+                        <path d="M12 2 0 9 12 16 22 10.1667V17.5H24V9L12 2ZM3.99902 13.4905V18.0001C5.82344 20.429 8.72812 22.0001 11.9998 22.0001 15.2714 22.0001 18.1761 20.429 20.0005 18.0001L20.0001 13.4913 12.0003 18.1579 3.99902 13.4905Z"></path>
+                    </svg>
+                </div>
+                <div class="ml-6 lg:ml-0 lg:mt-10">
+                    <h3
+                        class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                        Sukses
+                    </h3>
+                    <h4 class="mt-2 text-base text-gray-600">Selamat anda berhasil menyelesaikan langkah-langkah untuk menjadi Professor.</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
     <!-- ========== END ALUR PENDAFTARAN ========== -->
 
     <!-- ========== TESTIMONIAL ========== -->
@@ -341,10 +462,10 @@
     <div class="container lg:px-32 py-12 mx-auto" id="contact">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
-                <h1 class="font-bold text-3xl text-transparent from-pink-600 via-purple-600 to-pink-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
+                <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
                     Hubungi Kami
                 </h1>
-                <p class="mt-5 text-lg text-gray-500">Kami siap membantu dengan pertanyaan Anda tentang proses penerimaan. Hubungi kami melalui saluran berikut:</p>
+                <p class="mt-5 text-lg text-gray-400">Kami siap membantu dengan pertanyaan Anda tentang proses penerimaan. Hubungi kami melalui saluran berikut:</p>
                 <div class="mt-6 space-y-8 md:mt-8">
                     <p class="flex items-start -mx-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-purple-600 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -352,7 +473,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                         <span class="mx-2 text-gray-700 truncate dark:text-gray-400">
-                        Jl. Soeharto No.666, Cisaranten Kulon, Kota Bandung, Jawa Barat 40293
+                        Jl. Soeharto No.666, Cisaranten Kulon, Kota Bandung.
                         </span>
                     </p>
 
