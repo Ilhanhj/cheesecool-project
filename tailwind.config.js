@@ -33,6 +33,7 @@ export default {
                 glowRectBig: "url('/public/images/glowRect2.png')",
                 balls: "url('/public/images/balls-2.png')",
                 rect: "url('/public/images/rect.png')",
+                fusion: "url('/public/images/fusion.png')",
             },
         },
     },
