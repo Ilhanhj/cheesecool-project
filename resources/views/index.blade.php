@@ -236,10 +236,10 @@
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
-                <h2 class="font-bold lg:text-4xl sm:text-3xl text-transparent from-pink-600 via-purple-800 to-pink-800 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
+                <h2 class="font-bold lg:text-4xl md:text-3xl text-2xl text-transparent from-pink-600 via-purple-800 to-pink-800 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
             </div>
             <div class="w-full text-center lg:text-left">
-                <p class="text-lg font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
+                <p class="text-sm lg:text-l md:text-xl font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
@@ -454,6 +454,220 @@
     <!-- ========== END ALUR PENDAFTARAN ========== -->
 
     <!-- ========== TESTIMONIAL ========== -->
+    <div class="text-center py-16 md:py-32 lg:py-32">
+            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Cheesecool Hall of Fame</h2>
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-400 lg:text-xl lg:leading-8">
+            Lulusan terbaik Cheesecool University yang terkenal memberikan testimoni tentang pengalamannya di kampus.
+            </p>
+    </div>
+    <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+
+<!--first block-->
+    <ul class="space-y-8">
+      <!--iqbal's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://baleehash.github.io/portfolio-website/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/iqbal-hero.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="iqbal">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Iqbal Maulana</h3>
+                                <p class="text-gray-500 text-md">Owner Name-X</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Terimakasih karena Cheesecool saya bisa membuat satelit NAMEX.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--ilhan's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://ilhanhj-portfolio-v2.vercel.app/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/ilhan-hero.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="ilhan">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Ilhan Haffiyan Juldan</h3>
+                                <p class="text-gray-500 text-md">Human Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Cheesecool University, fondasi sukses saya. Lingkungan akademis unggul & dukungan dosen membekali saya dengan keterampilan untuk meraih prestasi. Saya bangga merekomendasikan Cheesecool sebagai pilihan terbaik untuk pendidikan berkualitas & masa depan cerah.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--ridwan's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/ridwan.__f/" class="cursor-pointer">
+
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/ridwan-hero-.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="ridwan">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Ridwan Stallin</h3>
+                                <p class="text-gray-500 text-md">Professor</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Mengatakan semua kampus sama saja adalah cara menghibur diri. Lingkungan universitas memengaruhi masa depan Anda, jadi bijaklah dalam memilih. Saya hanya bisa merekomendasikan Cheesecool University.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+    </ul>
+<!--end first block-->
+<!--second block-->
+    <ul class="hidden space-y-8 sm:block">
+      <!--ginanjar's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/ginanjar_pranowo/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/Homelander-S3.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="homelander">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Ginanjar Pranowo</h3>
+                                <p class="text-gray-500 text-md">President Ohio</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">UINN, UNTAD, UII, ITEBE, tidak ada. Universitas terbaik hanya Cheesecool University.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--speed's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/ishowspeed/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/speed.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="speed">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Darren Watkins Jr.</h3>
+                                <p class="text-gray-500 text-md">Content Creator</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">I'm NGL maaan this is the best campus i've ever seen. Big W for Mr.Hanball for making this building. </p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--amba's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/ambatron6969/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/amba.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="amba">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Mas Amba</h3>
+                                <p class="text-gray-500 text-md">CEO of AMBATRON</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Saya lulusan Teknik Elektro di Cheesecool University, Sekarang sedang Membangun Robot Pertama tanpa Batang di Indonesia.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+    </ul>
+<!--end second block-->
+<!--third block-->
+    <ul class="hidden space-y-8 lg:block">
+    <!--aan's block-->
+    <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/aan_andiyana_s31/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/aan-hero-.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="aan">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Aan L Cottsir</h3>
+                                <p class="text-gray-500 text-md">CEO of Gyattech</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Kurikulum dan Lingkungan kampus yang mendukung cocok bagi mahasiswa yang ingin membangun kualitas diri maupun pengetahuan.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--hanball's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.youtube.com/watch?v=uHgt8giw1LY" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/hanbal-hero.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Dan Schulman">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Hanball </h3>
+                                <p class="text-gray-500 text-md">Head of Cheesecool University</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Saya tahu Cheesecool University adalah yang terbaik.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <!--dedi's block-->
+        <li class="text-sm leading-6">
+            <div class="relative group">
+                <div
+                    class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                </div><a href="https://www.instagram.com/mastercorbuzier/" class="cursor-pointer">
+                    <div
+                        class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                        <div class="flex items-center space-x-4"><img
+                                src="images/team/Baldheadass.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Satya Nadella">
+                            <div>
+                                <h3 class="text-lg font-semibold text-white">Dedi Cahyadi</h3>
+                                <p class="text-gray-500 text-md">Magiciant</p>
+                            </div>
+                        </div>
+                        <p class="leading-normal text-gray-300 text-md">Anda terlalu polos jika tidak kuliah disini, Smart People kuliah nya Cheesecool University doong...</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+    </ul>
+<!--end third block-->
+</div>
+</div>
+
     <!-- ========== END TESTIMONIAL ========== -->
 
 
