@@ -140,7 +140,7 @@
     <!-- ========== END ABOUT ========== -->
 
     <!-- ========== JURUSAN ========== -->
-<div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="jurusan">
+<div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10" id="jurusan">
     <!-- Start Title -->
       <div class="max-w-xl mx-auto mt-5 leading-8 text-center ">
         <h1 class="block text-2xl font-bold text-white md:text-4xl lg:text-5xl ">
@@ -162,7 +162,7 @@
       </div>
       <div class="mt-5">
         <h3 class="text-lg font-semibold text-purple-600 lg:text-start text-start">Teknik Informatika</h3>
-        <p class="mt-1 text-gray-600 lg:text-start text-start">Pelajari ilmu komputer dan teknologi informasi dengan pendekatan praktis dan inovatif.</p>
+        <p class="mt-1 text-gray-600 lg:text-start text-start">Pelajari ilmu komputer dengan pendekatan praktis dan inovatif.</p>
       </div>
     </div>
     <!-- End Icon Block -->
@@ -174,7 +174,7 @@
       </div>
       <div class="mt-5">
         <h3 class="text-lg font-semibold text-purple-600">Bisnis Internasional</h3>
-        <p class="mt-1 text-gray-600">Kembangkan keterampilan bisnis global untuk karis yang sukses di pasar global.</p>
+        <p class="mt-1 text-gray-600">Kembangkan keterampilan bisnis global untuk karir yang sukses di pasar global.</p>
       </div>
     </div>
     <!-- End Icon Block -->
@@ -198,7 +198,7 @@
       </div>
       <div class="mt-5">
         <h3 class="text-lg font-semibold text-purple-600">Teknik Sipil</h3>
-        <p class="mt-1 text-gray-600">Dapatkan pengetahuan mendalam tentang perencanaan, desain dan konstruksi pembangunan.</p>
+        <p class="mt-1 text-gray-600">Dapatkan pengetahuan mendalam tentang desain dan konstruksi pembangunan.</p>
       </div>
     </div>
     <!-- End Icon Block -->
@@ -232,14 +232,16 @@
     <!-- ========== END JURUSAN ========== -->
 
     <!-- ========== WHY US ========== -->
-  <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-balls before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-12" id="whyus">
+  <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-halfBallCenter before:bg-opacity-95 before:bg-no-repeat before:bg-bottom  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-12" id="whyus">
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
-                <h2 class="font-bold lg:text-4xl md:text-3xl text-2xl text-transparent from-pink-600 via-purple-800 to-pink-800 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Mengapa CheeseCool University ?</h2>
+              <h1 class="block text-2xl font-bold text-white md:text-2xl lg:text-3xl ">
+                <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Mengapa Cheesecool University ?</span>
+                </h1>
             </div>
             <div class="w-full text-center lg:text-left">
-                <p class="text-sm lg:text-l md:text-xl font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
+                <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
@@ -330,7 +332,7 @@
     <!-- ========== END WHY US ========== -->
 
     <!-- ========== ALUR PENDAFTARAN ========== -->
-    <div class="px-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <div class="px-10 mx-auto max-w-5xl  sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Alur Pendaftaran</h2>
             <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-400 lg:text-xl lg:leading-8">
