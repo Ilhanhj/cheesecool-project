@@ -36,7 +36,7 @@
     lg:block lg:translate-x-0 lg:end-auto lg:bottom-0
     dark:bg-slate-900 dark:border-neutral-700
    ">
-    <div class="px-8">
+    <div class="px-8 py-4">
       <!-- Logo -->
       <div class="flex justify-center">
         <a href="/dashboard" aria-label="logo" class="flex items-center">
