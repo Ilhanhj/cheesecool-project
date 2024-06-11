@@ -241,6 +241,7 @@
                 </h1>
             </div>
             <div class="w-full text-center lg:text-left">
+                <p class="text-sm lg:text-l md:text-xl font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
                 <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
@@ -675,13 +676,13 @@
 
     <!-- ========== CONTACT ========== -->
     <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact">
-    <div class="container lg:px-32 py-12 mx-auto" id="contact">
+    <div class="container px-10 lg:px-32 py-12 mx-auto" id="contact">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
                 <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
                     Hubungi Kami
                 </h1>
-                <p class="mt-5 text-lg text-gray-400">Kami siap membantu dengan pertanyaan Anda tentang proses penerimaan. Hubungi kami melalui saluran berikut:</p>
+                <p class="mt-5 text-lg text-gray-400">Kami siap membantu pertanyaan penerimaan. Hubungi kami di:</p>
                 <div class="mt-6 space-y-8 md:mt-8">
                     <p class="flex items-start -mx-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-purple-600 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

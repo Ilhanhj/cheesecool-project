@@ -45,13 +45,13 @@
             <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#jurusan">JURUSAN</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#whyus">WHY US</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#whyus">ALASAN UTAMA</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="/team">TEAM</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="/team">TIM HANDAL</a>
           </div>
           <div>
-            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#contact">CONTACT</a>
+            <a class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300" href="{{ route('index') }}#contact">KONTAK</a>
           </div>
         </div>
       </div>
