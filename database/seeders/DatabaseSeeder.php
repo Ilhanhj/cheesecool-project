@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\CalonMahasiswa;
 use App\Models\Jurusan;
-use App\Models\NilaiTest;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Jurusan::factory(5)->create();
-        NilaiTest::factory(5)->create();
+        CalonMahasiswa::factory(5)->create();
 
     }
 }

@@ -6,114 +6,26 @@
 
   
   <!-- Content -->
-  <div class="w-full lg:ps-64">
-    <div class="p-4 sm:p-6 space-y-4 sm:space-y-6">
-      <!-- Grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:px-8">
-
-  
-        <!-- Card -->
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-800   dark:border-neutral-700">
-          <div class="p-4 md:p-5">
-            <div class="flex items-center gap-x-2">
-              <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-neutral-500">
-                TOTAL CALON MAHASISWA
-              </p>
+  <div class="w-full lg:ps-64 flex flex-col">
+    <div class="flex py-3 lg:ps-8">
+        @if(session()->has('success'))
+        <div role="alert" class="relative flex w-9/12 mr-32 px-4 py-4 text-base text-white bg-green-500 rounded-lg font-regular mt-3">
+            <div class="shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z">
+                </path>
+              </svg>
             </div>
-  
-            <div class="mt-1 flex items-center gap-x-2">
-              <h3 class="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                150
-              </h3>
-            </div>
+            <div class="ml-2 mr-12">{{ session('success') }}</div>
           </div>
-        </div>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-800   dark:border-neutral-700">
-                  <div class="p-4 md:p-5">
-                    <div class="flex items-center gap-x-2">
-                      <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-neutral-500">
-                        LU
-                      </p>
-                      <div class="hs-tooltip">
-                        <div class="hs-tooltip-toggle">
-                          <svg class="flex-shrink-0 size-4 text-gray-500 dark:text-neutral-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-                          <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded shadow-sm dark:bg-neutral-700" role="tooltip">
-                            The number of daily users
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-          
-                    <div class="mt-1 flex items-center gap-x-2">
-                      <h3 class="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                        72,540
-                      </h3>
-                      <span class="flex items-center gap-x-1 text-green-600">
-                        <svg class="inline-block size-4 self-center" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
-                        <span class="inline-block text-sm">
-                          %
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-  
-        <!-- Card -->
-
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-800   dark:border-neutral-700">
-          <div class="p-4 md:p-5">
-            <div class="flex items-center gap-x-2">
-              <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-neutral-500">
-                TIDAK LULUS
-              </p>
-            </div>
-  
-            <div class="mt-1 flex items-center gap-x-2">
-              <h3 class="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                56.8%
-              </h3>
-              <span class="flex items-center gap-x-1 text-red-600">
-                <svg class="inline-block size-4 self-center" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg>
-                <span class="inline-block text-sm">
-                  %
-                </span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <!-- End Card -->
-  
-        <!-- Card -->
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-800   dark:border-neutral-700">
-          <div class="p-4 md:p-5">
-            <div class="flex items-center gap-x-2">
-              <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-neutral-500">
-                PROGRAM STUDI
-              </p>
-            </div>
-  
-            <div class="mt-1 flex items-center gap-x-2">
-              <h3 class="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                92,913
-              </h3>
-            </div>
-          </div>
-        </div>
-        <!-- End Card -->
-      </div>
-      <!-- End Grid -->
-  
-  
-  <!-- Card -->
-  <div class="flex flex-col">
+        @endif
+    </div>
         <div class="-m-1.5 overflow-x-auto">
           <div class="p-1.5 min-w-full inline-block align-middle">
           <!-- Table Section -->
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 mx-auto">
       <!-- Card -->
       <div class="flex flex-col">
        <div class="-m-1.5 overflow-x-auto">
@@ -136,7 +48,7 @@
                   View all
                 </a>
 
-                <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                <a href="/dashboard/members/create" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
                   <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                   Tambah
                 </a>
@@ -189,14 +101,6 @@
                     </span>
                   </div>
                 </th>
-
-                {{-- <th scope="col" class="px-6 py-3 text-start">
-                  <div class="flex items-center gap-x-2">
-                    <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
-                      Email
-                    </span>
-                  </div>
-                </th> --}}
 
                 <th scope="col" class="px-6 py-3 text-end">
                   <div class="flex items-center gap-x-2">
@@ -383,9 +287,7 @@
           <!-- End Footer -->
         </div>
       </div>
-    </div>
   </div>
-  <!-- End Card -->
   </div>
 <!-- End Table Section -->
 
@@ -394,7 +296,6 @@
       </div>
       <!-- End Card -->
     </div>
-  </div>
-  <!-- End Content -->
+  </div><!-- End Content -->
   <!-- ========== END MAIN CONTENT ========== -->
 @endsection

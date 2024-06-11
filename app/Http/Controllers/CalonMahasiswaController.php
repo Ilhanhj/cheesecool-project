@@ -2,18 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\NilaiTest;
+use App\Models\CalonMahasiswa;
 use Illuminate\Http\Request;
 
-class NilaiTestController extends Controller
+class CalonMahasiswaController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('/nilai',[
-            'title' => 'Nilai Test'
+        return view('dashboard.mahasiswa.index',[
+            'calonMahasiswas' => CalonMahasiswa::all(),
+            'title' => 'Dashboard Calon Mahasiswa'
         ]);
     }
 
@@ -36,7 +37,7 @@ class NilaiTestController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(NilaiTest $nilaiTest)
+    public function show(CalonMahasiswa $calonMahasiswa)
     {
         //
     }
@@ -44,7 +45,7 @@ class NilaiTestController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(NilaiTest $nilaiTest)
+    public function edit(CalonMahasiswa $calonMahasiswa)
     {
         //
     }
@@ -52,7 +53,7 @@ class NilaiTestController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, NilaiTest $nilaiTest)
+    public function update(Request $request, CalonMahasiswa $calonMahasiswa)
     {
         //
     }
@@ -60,7 +61,7 @@ class NilaiTestController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(NilaiTest $nilaiTest)
+    public function destroy(CalonMahasiswa $calonMahasiswa)
     {
         //
     }

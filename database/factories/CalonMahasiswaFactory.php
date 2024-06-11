@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\NilaiTest>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\CalonMahasiswa>
  */
-class NilaiTestFactory extends Factory
+class CalonMahasiswaFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,8 +17,9 @@ class NilaiTestFactory extends Factory
     public function definition(): array
     {
         return [
-            'mahasiswa_id' => mt_rand(1,5),
-            'nilai' => $this->faker->sentence(mt_rand(1,2)),
+            'jurusan_id' => mt_rand(1,5),
+            'nama' => $this->faker->sentence(mt_rand(1,2)),
+            'asal_sekolah' => $this->faker->sentence(mt_rand(1,2)),
             'status' => $this->faker->sentence(mt_rand(1,2)),
 
         ];
