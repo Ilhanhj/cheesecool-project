@@ -232,7 +232,7 @@
     <!-- ========== END JURUSAN ========== -->
 
     <!-- ========== WHY US ========== -->
-  <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-halfBallCenter before:bg-opacity-95 before:bg-no-repeat before:bg-bottom  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-12" id="whyus">
+  <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-halfBallCenter before:bg-opacity-95 before:bg-no-repeat before:bg-bottom  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-12">
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
@@ -357,7 +357,7 @@
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Daftar melalui Website
                     </h3>
-                    <h4 class="mt-2 text-base text-gray-600">Website resmi  <a href = https://baleehash.github.io/portfolio-website><span class="text-blue-500"> "Cheesecooluniversity.com"</span> </a>selain itu palsu.</h4>
+                    <h4 class="mt-2 text-base text-gray-600">Website resmi  <a href = https://ilhanhj-portfolio-v2.vercel.app/><span class="text-blue-500"> "Cheesecooluniversity.com"</span> </a>selain itu palsu.</h4>
                 </div>
             </li>
             <li class="flex-start group relative flex lg:flex-col">
@@ -714,25 +714,25 @@
                     <h3 class="text-gray-600 dark:text-gray-300 ">Ikuti Kami</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="#">
+                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://x.com/Baleehash_">
                         <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
                             <path d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z" fill="currentColor"/>
                           </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="#">
+                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.instagram.com/baleehash_/">
                         <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
                             </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="#">
+                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.facebook.com/Baleeehash?_rdc=1&_rdr">
                          <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
                             </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="#">
+                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.youtube.com/watch?v=uHgt8giw1LY">
                         <svg class="w-8 h-8" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z" fill="currentColor"/>
                               </svg>
