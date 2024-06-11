@@ -241,11 +241,8 @@
                 </h1>
             </div>
             <div class="w-full text-center lg:text-left">
-<<<<<<< HEAD
                 <p class="text-sm lg:text-l md:text-xl font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
-=======
                 <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
->>>>>>> 30b7a41ecf05bd14dd76eddfbd683308c5b98ff0
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
