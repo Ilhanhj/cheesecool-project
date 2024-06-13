@@ -11,4 +11,8 @@ class Jurusan extends Model
     
     protected $guarded = ['id'];
 
+    public function calonMahasiswas()
+    {
+        return $this->hasMany(CalonMahasiswa::class);
+    }
 }

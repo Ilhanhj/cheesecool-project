@@ -18,6 +18,9 @@ class JurusanFactory extends Factory
     {
         return [
             'nama' => $this->faker->sentence(mt_rand(1,2)),
+            'akreditasi' => $this->faker->sentence(mt_rand(1,2)),
+            'deskripsi' => $this->faker->sentence(mt_rand(4,9)),
+            'jenjang' => $this->faker->sentence(mt_rand(1,2)),
         ];
     }
 }

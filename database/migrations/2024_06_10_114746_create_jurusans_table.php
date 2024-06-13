@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('jurusans', function (Blueprint $table) {
             $table->id();
             $table->string('nama')->unique();
+            $table->string('akreditasi')->unique();
+            $table->string('deskripsi')->unique();
+            $table->string('jenjang')->unique();
             $table->timestamps();
         });
     }
