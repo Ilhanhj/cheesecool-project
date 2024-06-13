@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CalonMahasiswa;
+use App\Models\Jurusan;
 use Illuminate\Http\Request;
 
 class CalonMahasiswaController extends Controller
@@ -14,7 +15,7 @@ class CalonMahasiswaController extends Controller
     {
         return view('dashboard.mahasiswa.index',[
             'calonMahasiswas' => CalonMahasiswa::all(),
-            'title' => 'Dashboard Calon Mahasiswa'
+            'title' => 'Dashboard | Calon Mahasiswa'
         ]);
     }
 
@@ -23,7 +24,11 @@ class CalonMahasiswaController extends Controller
      */
     public function create()
     {
-        //
+        return view('dashboard.mahasiswa.create',[
+            'jurusans' => Jurusan::all(),
+            'title' => 'Dashboard | Form Calon Mahasiswa'
+
+        ]);
     }
 
     /**
@@ -31,7 +36,15 @@ class CalonMahasiswaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'nama' => 'required|min:5|max:255',
+            'asal_sekolah' => 'required|min:5|max:255',
+            'jurusan_id' => 'required',
+            'nilai_test' => 'required|integer|between:1,100',
+        ]);
+
+        CalonMahasiswa::create($validatedData);
+        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Ditambahkan');
     }
 
     /**

@@ -162,7 +162,7 @@
       </div>
       <div class="mt-5">
         <h3 class="text-lg font-semibold text-purple-600 lg:text-start text-start">Teknik Informatika</h3>
-        <p class="mt-1 text-gray-600 lg:text-start text-start">Pelajari ilmu komputer dengan pendekatan praktis dan inovatif.</p>
+        <p class="mt-1 text-gray-600 lg:text-start text-start">Pelajari ilmu komputer dengan pendekatan teknologi yang praktis dan inovatif.</p>
       </div>
     </div>
     <!-- End Icon Block -->

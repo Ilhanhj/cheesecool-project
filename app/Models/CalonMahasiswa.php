@@ -11,4 +11,9 @@ class CalonMahasiswa extends Model
 
     protected $guarded = ['id'];
 
+    public function jurusan()
+    {
+        return $this->belongsTo(Jurusan::class);
+    }
+
 }

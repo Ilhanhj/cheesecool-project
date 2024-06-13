@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('jurusan_id');
             $table->string('nama');
             $table->string('asal_sekolah');
-            $table->string('status');
+            $table->integer('nilai_test');
             $table->timestamps();
         });
     }
