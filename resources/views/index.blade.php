@@ -241,7 +241,7 @@
                 </h1>
             </div>
             <div class="w-full text-center lg:text-left">
-                <p class="text-sm lg:text-l md:text-xl font-normal text-gray-400 mb-5">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
+                <p class="text-sm lg:text-l md:text-xl font-normal text-gray-600 dark:text-neutral-400 mb-5">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
                 <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
@@ -336,7 +336,7 @@
     <div class="px-10 mx-auto max-w-5xl  sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Alur Pendaftaran</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-400 lg:text-xl lg:leading-8">
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8">
                 Kesempatan gratis menjadi professor dengan empat langkah
             </p>
         </div>
@@ -459,7 +459,7 @@
     <!-- ========== TESTIMONIAL ========== -->
     <div class="text-center py-16 md:py-32 lg:py-32">
             <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Cheesecool Hall of Fame</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-400 lg:text-xl lg:leading-8">
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8">
             Lulusan terbaik Cheesecool University yang terkenal memberikan testimoni tentang pengalamannya di kampus.
             </p>
     </div>
@@ -510,24 +510,23 @@
                 </a>
             </div>
         </li>
-        <!--ridwan's block-->
+        <!--amba's block-->
         <li class="text-sm leading-6">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                </div><a href="https://www.instagram.com/ridwan.__f/" class="cursor-pointer">
-
+                </div><a href="https://www.instagram.com/ambatron6969/" class="cursor-pointer">
                     <div
                         class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                         <div class="flex items-center space-x-4"><img
-                                src="images/team/ridwan-hero-.png"
-                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="ridwan">
+                                src="images/team/amba.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="amba">
                             <div>
-                                <h3 class="text-lg font-semibold text-white">Ridwan Stallin</h3>
-                                <p class="text-gray-500 text-md">Professor</p>
+                                <h3 class="text-lg font-semibold text-white">Mas Amba</h3>
+                                <p class="text-gray-500 text-md">CEO of AMBATRON</p>
                             </div>
                         </div>
-                        <p class="leading-normal text-gray-300 text-md">Mengatakan semua kampus sama saja adalah cara menghibur diri. Lingkungan universitas memengaruhi masa depan Anda, jadi bijaklah dalam memilih. Saya hanya bisa merekomendasikan Cheesecool University.</p>
+                        <p class="leading-normal text-gray-300 text-md">Saya lulusan Teknik Elektro di Cheesecool University, Sekarang sedang Membangun Robot Pertama tanpa Batang di Indonesia.</p>
                     </div>
                 </a>
             </div>
@@ -578,23 +577,24 @@
                 </a>
             </div>
         </li>
-        <!--amba's block-->
+        <!--ridwan's block-->
         <li class="text-sm leading-6">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                </div><a href="https://www.instagram.com/ambatron6969/" class="cursor-pointer">
+                </div><a href="https://www.instagram.com/ridwan.__f/" class="cursor-pointer">
+
                     <div
                         class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                         <div class="flex items-center space-x-4"><img
-                                src="images/team/amba.png"
-                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="amba">
+                                src="images/team/ridwan-hero-.png"
+                                class="w-12 h-12 bg-center bg-cover border rounded-full" alt="ridwan">
                             <div>
-                                <h3 class="text-lg font-semibold text-white">Mas Amba</h3>
-                                <p class="text-gray-500 text-md">CEO of AMBATRON</p>
+                                <h3 class="text-lg font-semibold text-white">Ridwan Stallin</h3>
+                                <p class="text-gray-500 text-md">Professor</p>
                             </div>
                         </div>
-                        <p class="leading-normal text-gray-300 text-md">Saya lulusan Teknik Elektro di Cheesecool University, Sekarang sedang Membangun Robot Pertama tanpa Batang di Indonesia.</p>
+                        <p class="leading-normal text-gray-300 text-md">Mengatakan semua kampus sama saja adalah cara menghibur diri. Lingkungan universitas memengaruhi masa depan Anda, jadi bijaklah dalam memilih. Saya hanya bisa merekomendasikan Cheesecool University.</p>
                     </div>
                 </a>
             </div>
@@ -619,7 +619,7 @@
                                 <p class="text-gray-500 text-md">CEO of Gyattech</p>
                             </div>
                         </div>
-                        <p class="leading-normal text-gray-300 text-md">Kurikulum dan Lingkungan kampus yang mendukung cocok bagi mahasiswa yang ingin membangun kualitas diri maupun pengetahuan.</p>
+                        <p class="leading-normal text-gray-300 text-md">Kurikulum dan lingkungan kampus di Cheesecool memberikan landasan yang sempurna bagi pertumbuhan pribadi dan akademik saya. Dengan fokus holistik dan fasilitas modern, saya merasa siap menghadapi tantangan di dunia nyata dengan percaya diri.</p>
                     </div>
                 </a>
             </div>
@@ -673,10 +673,104 @@
 
     <!-- ========== END TESTIMONIAL ========== -->
 
+    <!-- ========= FAQ ======== -->
+<div class="max-w-[85rem] px-4 py-16 sm:px-6 lg:px-8 lg:py-32 mx-auto">
+  <!-- Title -->
+  <div class="max-w-2xl mx-auto text-center mb-10">
+    <h2 class="text-2xl font-bold md:text-4xl lg:text-4xl md:leading-tight bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Pertanyaan Anda, Terjawab</h2>
+    <p class="mt-1 text-gray-600 dark:text-neutral-400">Jawaban untuk pertanyaan yang paling sering diajukan.</p>
+  </div>
+  <!-- End Title -->
+
+  <div class="max-w-2xl mx-auto">
+    <!-- Accordion -->
+    <div class="hs-accordion-group">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900 active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+        Bagaimana cara mendaftar di Cheesecool University?
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
+          <p class="text-gray-800 dark:text-neutral-200">
+          Anda dapat mendaftar secara online melalui situs web resmi Cheesecool University dengan mengisi formulir pendaftaran dan mengunggah dokumen yang diperlukan.
+          </p>
+        </div>
+      </div>
+
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-two">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
+        Bagaimana proses seleksi penerimaan?
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
+          <p class="text-gray-800 dark:text-neutral-200">
+          Proses seleksi melibatkan penilaian dokumen akademis, ujian masuk, dan wawancara. 
+          </p>
+        </div>
+      </div>
+
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-three">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
+        Apakah ada beasiswa yang ditawarkan?
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
+          <p class="text-gray-800 dark:text-neutral-200">
+            Tidak, Karena di Cheesecool University bebas dari segala hal yang bersangkutan dengan uang
+          </p>
+        </div>
+      </div>
+
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-four">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
+          Siapa pendiri Cheesecool University
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-four" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
+          <p class="text-gray-800 dark:text-neutral-200">
+            Tahun 2049, Mr.Hanball membuat Cheesecool University dan disitulah pendidikan di planet name-x meningkat secara tidak normal.
+          </p>
+        </div>
+      </div>
+
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-five">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
+        Bagaimana cara mendapatkan informasi tentang program studi yang ditawarkan?
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-five" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
+          <p class="text-gray-800 dark:text-neutral-200">
+          Informasi mengenai program studi yang ditawarkan, termasuk kurikulum, fakultas, dan peluang karir, dapat ditemukan di halaman program studi di situs web Cheesecool University.
+          </p>
+        </div>
+      </div>
+
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-six">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
+        Apa saja fasilitas yang tersedia di kampus?
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+        <div id="hs-basic-with-title-and-arrow-stretched-collapse-six" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
+          <p class="text-gray-800 dark:text-neutral-200">
+          Cheesecool University menyediakan fasilitas modern termasuk perpustakaan, laboratorium, pusat olahraga, dan asrama mahasiswa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Accordion -->
+  </div>
+</div>
+<!-- ========== END FAQ ========== -->
 
     <!-- ========== CONTACT ========== -->
     <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact">
-    <div class="container px-10 lg:px-32 py-12 mx-auto" id="contact">
+    <div class="container px-10 lg:px-32 mx-auto" id="contact">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
                 <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
