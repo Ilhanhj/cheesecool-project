@@ -50,9 +50,8 @@
           alt=""
           class="m-auto h-10 w-10 rounded-full object-cover lg:h-28 lg:w-28"
         />
-        <h5 class="mt-4 hidden text-xl font-semibold text-purple-600 lg:block dark:text-purple-300">John Doe</h5>
-        {{-- <h5 class="mt-4 hidden text-xl font-semibold text-purple-600 lg:block dark:text-purple-300">{{ auth()->user()->name }}</h5> --}}
-        {{-- <span class="hidden text-purple-400 lg:block">{{ auth()->user()->email }}</span> --}}
+        <h5 class="mt-4 hidden text-xl font-semibold text-purple-600 lg:block dark:text-purple-300">{{ auth()->user()->name }}</h5> 
+        <span class="hidden text-purple-400 lg:block">{{ auth()->user()->email }}</span>
       </div>
       <!-- End Logo -->
     </div>

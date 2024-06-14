@@ -32,9 +32,9 @@ Route::post('/logout', [LoginController::class, 'logout'])->middleware('auth')->
 
 // Route for dashboard
 Route::middleware('auth')->group(function () {
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-Route::resource('/dashboard/mahasiswa', CalonMahasiswaController::class);
-Route::resource('/dashboard/jurusan', JurusanController::class);
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
+Route::resource('/dashboard/mahasiswa', CalonMahasiswaController::class)->middleware('auth');
+Route::resource('/dashboard/jurusan', JurusanController::class)->middleware('auth');
 });
 
 

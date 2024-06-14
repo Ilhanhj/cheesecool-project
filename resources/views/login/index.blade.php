@@ -5,7 +5,7 @@
     <div class="flex justify-center items-center min-h-screen p-2">
         <div class="w-full max-w-md p-6 border border-gray-500 dark:bg-[#030617] rounded-md shadow-md bg-white">
             <div class="text-start py-5">
-                <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">
+                <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-10">
                     Welcome, TrailBlazer
                 </h1>
 
