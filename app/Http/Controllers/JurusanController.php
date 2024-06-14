@@ -12,9 +12,9 @@ class JurusanController extends Controller
      */
     public function index()
     {
-        return view('dashboard.jurusan.index',[
+        return view('dashboard.jurusan.index', [
             'jurusans' => Jurusan::all(),
-            'title' => 'Dashboard Program Studi'
+            'title' => 'Dashboard | Program Studi',
         ]);
     }
 
@@ -23,7 +23,10 @@ class JurusanController extends Controller
      */
     public function create()
     {
-        //
+        return view('dashboard.jurusan.create', [
+            'jurusans' => Jurusan::all(),
+            'title' => 'Dashboard | Form Calon Jurusan',
+        ]);
     }
 
     /**
@@ -31,7 +34,15 @@ class JurusanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'nama' => 'required|min:5|max:255',
+        ]);
+
+        Jurusan::create($validatedData);
+        return redirect('/dashboard/jurusan')->with(
+            'success',
+            'Calon Jurusan Telah Ditambahkan'
+        );
     }
 
     /**
@@ -47,7 +58,11 @@ class JurusanController extends Controller
      */
     public function edit(Jurusan $jurusan)
     {
-        //
+        return view('dashboard.jurusan.edit', [
+            'jurusan' => $jurusan,
+            'jurusans' => Jurusan::all(),
+            'title' => 'Dashboard | Edit Program Studi',
+        ]);
     }
 
     /**
@@ -55,7 +70,18 @@ class JurusanController extends Controller
      */
     public function update(Request $request, Jurusan $jurusan)
     {
-        //
+        $rules = [
+            'nama' => 'required|min:5|max:255',
+        ];
+
+        $validatedData = $request->validate($rules);
+
+        Jurusan::where('id', $jurusan->id)->update($validatedData);
+
+        return redirect('/dashboard/jurusan')->with(
+            'success',
+            ' Program Studi Telah Diubah'
+        );
     }
 
     /**
@@ -63,6 +89,11 @@ class JurusanController extends Controller
      */
     public function destroy(Jurusan $jurusan)
     {
-        //
+        Jurusan::destroy($jurusan->id);
+
+        return redirect('/dashboard/jurusan')->with(
+            'success',
+            'Program Studi Telah Dihapus'
+        );
     }
 }
