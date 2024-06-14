@@ -58,24 +58,43 @@ class CalonMahasiswaController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(CalonMahasiswa $calonMahasiswa)
+    public function edit(CalonMahasiswa $mahasiswa)
     {
-        //
+        return view('dashboard.mahasiswa.edit',[
+            'mahasiswa' => $mahasiswa,
+            'jurusans' => Jurusan::all(),
+            'title' => 'Dashboard | Edit Calon Mahasiswa'
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, CalonMahasiswa $calonMahasiswa)
+    public function update(Request $request, CalonMahasiswa $mahasiswa)
     {
-        //
+        $rules = [
+            'nama' => 'required|min:5|max:255',
+            'asal_sekolah' => 'required|min:5|max:255',
+            'jurusan_id' => 'required',
+            'nilai_test' => 'required|',
+        ];
+
+        $validatedData = $request->validate($rules);
+
+        CalonMahasiswa::where('id', $mahasiswa->id)->update($validatedData);
+
+        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Diubah');
+
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(CalonMahasiswa $calonMahasiswa)
+    public function destroy(CalonMahasiswa $mahasiswa)
     {
-        //
+        
+        CalonMahasiswa::destroy($mahasiswa->id);
+
+        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Dihapus');
     }
 }
