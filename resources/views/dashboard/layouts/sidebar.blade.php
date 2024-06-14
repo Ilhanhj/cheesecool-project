@@ -87,6 +87,10 @@ Nilai Test        </a></li> --}}
 Program Studi        </a></li>
 
       </ul>
+      <form action="{{ route('logout') }}" method="POST" class="mx-1">
+      @csrf
+      <button type="submit" class="flex w-full item-center justify-center px-4 py-3 text-sm font-medium text-black border rounded-md border-neutral-200 gap-x-2 hover:bg-neutral-100 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-600 dark:hover:bg-white/10 dark:text-white dark:hover:text-purple-600">Log Out</button>
+    </form>
     </nav>
   </div>
   <!-- End Sidebar -->
