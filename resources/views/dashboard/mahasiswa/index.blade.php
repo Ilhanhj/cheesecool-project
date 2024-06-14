@@ -6,7 +6,7 @@
 
   
   <!-- Content -->
-  <div class="w-full lg:ps-64 flex flex-col">
+  <div class="w-full lg:ps-[15.5rem] flex flex-col">
     <div class="flex py-3 lg:ps-8">
         @if(session()->has('success'))
         <div role="alert" class="relative flex w-9/12 mr-32 px-4 py-4 text-base text-white bg-green-500 rounded-lg font-regular mt-3">
@@ -25,7 +25,7 @@
         <div class="-m-1.5 overflow-y-auto">
           <div class="p-1.5 min-w-full inline-block align-middle">
           <!-- Table Section -->
-        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 mx-auto">
+        <div class="max-w-[85rem] px-4 pb-10 sm:px-6 lg:pe-10 mx-auto">
       <!-- Card -->
       <div class="flex flex-col">
        <div class="-m-1.5 overflow-x-auto">
@@ -166,7 +166,7 @@
                   </span>
                 
               </td>
-                <td class="size-px pe-4 whitespace-nowrap border-e dark:border-neutral-700">
+                <td class="size-px whitespace-nowrap border-e dark:border-neutral-700">
                   @php
                       $status = $calonMahasiswa->nilai_test <= 80 ? 'tidak lulus' : 'lulus';
                   @endphp

@@ -46,7 +46,7 @@
     
       <div class="mt-8 text-center">
         <img
-          src="/images/profil.png"
+          src="/images/me.png"
           alt=""
           class="m-auto h-10 w-10 rounded-full object-cover lg:h-28 lg:w-28"
         />
