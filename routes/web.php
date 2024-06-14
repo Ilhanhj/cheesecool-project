@@ -1,10 +1,11 @@
 <?php
-
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CalonMahasiswaController;
 use App\Http\Controllers\JurusanController;
+
 
 // Route for index page
 Route::get('/', function () {
@@ -31,9 +32,9 @@ Route::post('/logout', [LoginController::class, 'logout'])->middleware('auth')->
 
 // Route for dashboard
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::resource('/dashboard/mahasiswa', CalonMahasiswaController::class);
-    Route::resource('/dashboard/jurusan', JurusanController::class);
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::resource('/dashboard/mahasiswa', CalonMahasiswaController::class);
+Route::resource('/dashboard/jurusan', JurusanController::class);
 });
 
 
