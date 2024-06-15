@@ -23,8 +23,36 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('123123123'),
         ]);
 
-        Jurusan::factory(5)->create();
-        CalonMahasiswa::factory(5)->create();
+        User::create([
+            'name' => 'Juldan HI',
+            'email' => 'ilhanzuldan@gmail.com',
+            'password' => bcrypt('123123123'),
+        ]);
 
+        Jurusan::create([
+            'nama' => 'Teknik Informatika',
+        ]);
+
+        Jurusan::create([
+            'nama' => 'Bisnis Internasional',
+        ]);
+
+        Jurusan::create([
+            'nama' => 'Desain Grafis',
+        ]);
+
+        Jurusan::create([
+            'nama' => 'Teknik Sipil',
+        ]);
+
+        Jurusan::create([
+            'nama' => 'Ilmu Komunikasi',
+        ]);
+
+        Jurusan::create([
+            'nama' => 'Teknik Elektro',
+        ]);
+
+        CalonMahasiswa::factory(5)->create();
     }
 }
