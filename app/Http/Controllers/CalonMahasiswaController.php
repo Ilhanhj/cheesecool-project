@@ -13,9 +13,9 @@ class CalonMahasiswaController extends Controller
      */
     public function index()
     {
-        return view('dashboard.mahasiswa.index',[
-            'calonMahasiswas' => CalonMahasiswa::all(),
-            'title' => 'Dashboard | Calon Mahasiswa'
+        return view('dashboard.mahasiswa.index', [
+            'calonMahasiswas' => CalonMahasiswa::first()->paginate(10),
+            'title' => 'Dashboard | Calon Mahasiswa',
         ]);
     }
 
@@ -24,10 +24,9 @@ class CalonMahasiswaController extends Controller
      */
     public function create()
     {
-        return view('dashboard.mahasiswa.create',[
+        return view('dashboard.mahasiswa.create', [
             'jurusans' => Jurusan::all(),
-            'title' => 'Dashboard | Form Calon Mahasiswa'
-
+            'title' => 'Dashboard | Form Calon Mahasiswa',
         ]);
     }
 
@@ -44,7 +43,10 @@ class CalonMahasiswaController extends Controller
         ]);
 
         CalonMahasiswa::create($validatedData);
-        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Ditambahkan');
+        return redirect('/dashboard/mahasiswa')->with(
+            'success',
+            'Calon Mahasiswa Telah Ditambahkan'
+        );
     }
 
     /**
@@ -60,10 +62,10 @@ class CalonMahasiswaController extends Controller
      */
     public function edit(CalonMahasiswa $mahasiswa)
     {
-        return view('dashboard.mahasiswa.edit',[
+        return view('dashboard.mahasiswa.edit', [
             'mahasiswa' => $mahasiswa,
             'jurusans' => Jurusan::all(),
-            'title' => 'Dashboard | Edit Calon Mahasiswa'
+            'title' => 'Dashboard | Edit Calon Mahasiswa',
         ]);
     }
 
@@ -83,8 +85,10 @@ class CalonMahasiswaController extends Controller
 
         CalonMahasiswa::where('id', $mahasiswa->id)->update($validatedData);
 
-        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Diubah');
-
+        return redirect('/dashboard/mahasiswa')->with(
+            'success',
+            'Calon Mahasiswa Telah Diubah'
+        );
     }
 
     /**
@@ -92,9 +96,11 @@ class CalonMahasiswaController extends Controller
      */
     public function destroy(CalonMahasiswa $mahasiswa)
     {
-        
         CalonMahasiswa::destroy($mahasiswa->id);
 
-        return redirect('/dashboard/mahasiswa')->with('success', 'Calon Mahasiswa Telah Dihapus');
+        return redirect('/dashboard/mahasiswa')->with(
+            'success',
+            'Calon Mahasiswa Telah Dihapus'
+        );
     }
 }

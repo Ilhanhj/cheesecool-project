@@ -33,7 +33,7 @@
                         </label>
                     </div>
 
-                    <div>
+                    {{-- <div>
                         <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Username</label>
                         <input type="text" placeholder="Username" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-teal-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40 @error('username')is-invalid @enderror" name="username"  required value="{{ old('username') }}"/>
                         <label for="username">
@@ -43,7 +43,7 @@
                                 </p>
                             @enderror
                         </label>
-                    </div>
+                    </div> --}}
                     <div>
                         <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
                         <input type="email" placeholder="Enter your email" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-teal-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40 @error('email')is-invalid @enderror" name="email"  required value="{{ old('email') }}"/>

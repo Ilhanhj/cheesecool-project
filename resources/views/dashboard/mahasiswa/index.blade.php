@@ -40,15 +40,18 @@
               <p class="text-sm text-gray-600 dark:text-neutral-400">
                 Tambahkan Calon Mahasiswa, edit, delete di tabel ini.
               </p>
+              @can('admin')
+                
               <div class="pt-5 pb-2">
                 <div class="inline-flex gap-x-2">
-  
+                  
                   <a href="/dashboard/mahasiswa/create" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                     Tambah
                   </a>
                 </div>
-            </div>
+              </div>
+              @endcan
 
             
             </div>
@@ -113,7 +116,8 @@
                     </span>
                   </div>
                 </th>
-
+                @can('admin')
+                  
                 <th scope="col" class="px-6 py-3 text-end">
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
@@ -122,6 +126,7 @@
                   </div>
                 </th>
               </tr>
+              @endcan
             </thead>
 
             <tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
@@ -130,7 +135,7 @@
                 <td class="size-px whitespace-nowrap">
                   
                     <span class="block px-6 py-2">
-                      <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $loop->iteration }}</span>
+                      <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $calonMahasiswa->id }}</span>
                     </span>
                   
                 </td>
@@ -178,13 +183,8 @@
                 
               </td>
                 
-                {{-- <td class="size-px whitespace-nowrap">
-                  
-                    {{-- <span class="block px-6 py-2">
-                      <span class="text-sm text-gray-600 dark:text-neutral-400">20 Dec, 09:27</span>
-                    </span> --}}
-                  
-                {{-- </td>  --}}
+              @can('admin')
+                
                 <td class="size-px whitespace-nowrap">
                   <div class="flex flex-col py-5  ">
                     <div class="pb-2">
@@ -214,6 +214,8 @@
                   
                 </div>
                 </td>
+                @endcan
+
               </tr>
               @endforeach
 
@@ -228,24 +230,11 @@
                 <span class="font-semibold text-gray-800 dark:text-neutral-200"></span> 
               </p>
             </div>
+            <div class="flex bg-slate-800">
 
-            <div>
-              <div class="inline-flex gap-x-2">
-                <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover: disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
-                  <svg class="size-3" width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.506 1.64001L4.85953 7.28646C4.66427 7.48172 4.66427 7.79831 4.85953 7.99357L10.506 13.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                  Prev
-                </button>
-
-                <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover: disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
-                  Next
-                  <svg class="size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.50598 2L10.1524 7.64645C10.3477 7.84171 10.3477 8.15829 10.1524 8.35355L4.50598 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                </button>
-              </div>
+              {{ $calonMahasiswas->links() }}
             </div>
+
           </div>
           <!-- End Footer -->
         </div>
@@ -259,6 +248,7 @@
       </div>
       <!-- End Card -->
     </div>
-  </div><!-- End Content -->
   <!-- ========== END MAIN CONTENT ========== -->
+
+  
 @endsection
