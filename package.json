@@ -16,7 +16,9 @@
         "vite": "^5.0"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "preline": "^2.3.0",
-        "sweetalert2": "^11.11.1"
+        "sweetalert2": "^11.11.1",
+        "taos": "^1.0.5"
     }
 }
