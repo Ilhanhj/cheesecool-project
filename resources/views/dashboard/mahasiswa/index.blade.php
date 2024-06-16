@@ -60,43 +60,44 @@
 
           <!-- Table -->
           <table class="min-w-full divide-y divide-gray-200 dark:divide-neutral-700 ">
-            <thead class=" dark:bg-slate-800">
+            <thead class=" dark:bg-slate-800 ">
               <tr>
-                <th scope="col" class="px-6 py-3 text-start">
+                <th scope="col" class="px-6 py-3 text-start border-e dark:border-neutral-700">
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
                       #
                     </span>
                   </div>
                 </th>
-                <th scope="col" class="px-6 py-3 text-start">
+                <th scope="col" class="px-6 py-3 text-start hover:bg-slate-900">
+
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
-                      Nama Calon Mahasiswa
+                      @sortablelink('nama','NAMA CALON MAHASISWA')
                     </span>
                   </div>
                 </th>
 
-                <th scope="col" class="px-6 py-3 text-start">
+                <th scope="col" class="px-6 py-3 text-start hover:bg-slate-900">
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
-                      Asal Sekolah
+                      @sortablelink('asal_sekolah','ASAL SEKOLAH')
                     </span>
                   </div>
                 </th>
 
-                <th scope="col" class="px-6 py-3 text-start">
+                <th scope="col" class="px-6 py-3 text-start hover:bg-slate-900">
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
-                      Program Studi
+                      @sortablelink('jurusan_id','PROGRAM STUDI')
                     </span>
                   </div>
                 </th>
 
-                <th scope="col" class="px-6 py-3 text-start">
+                <th scope="col" class="px-6 py-3 text-start hover:bg-slate-900">
                   <div class="flex items-center gap-x-2">
                     <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-neutral-200">
-                      Nilai Test
+                      @sortablelink('nilai_test','NILAI TEST')
                     </span>
                     <div class="hs-tooltip">
                       <div class="hs-tooltip-toggle">
@@ -132,14 +133,14 @@
             <tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
               @foreach ($calonMahasiswas as $calonMahasiswa)
               <tr class="bg-white hover: dark:bg-slate-900 dark:hover:bg-slate-950">
-                <td class="size-px whitespace-nowrap">
+                <td class="  border-e dark:border-neutral-700">
                   
                     <span class="block px-6 py-2">
-                      <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $calonMahasiswa->id }}</span>
+                      <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $loop->iteration }}</span>
                     </span>
                   
                 </td>
-                <td class="size-px whitespace-nowrap">
+                <td class=" ">
                   
                     <span class="block px-6 py-2">
                       <span class="py-1 inline-flex items-center gap-x-1 text-sm font-medium text-white">
@@ -147,13 +148,13 @@
                     </span>
                   
                 </td>
-                <td class="size-px whitespace-nowrap">
+                <td class=" ">
                     <span class="block px-6 py-2">
                       <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $calonMahasiswa->asal_sekolah }}</span>
                     </span>
                 </td>
                 
-                <td class="size-px whitespace-nowrap">
+                <td class=" ">
                   
                   <span class="block px-6 py-2">
                     <span class="text-sm text-gray-600 dark:text-neutral-400">
@@ -162,7 +163,7 @@
                   </span>
                 
               </td>
-                <td class="size-px whitespace-nowrap">
+                <td class=" ">
                   
                   <span class="block px-6 py-2">
                     <span class="py-1 inline-flex items-center gap-x-1 text-sm font-medium text-white">
@@ -171,7 +172,7 @@
                   </span>
                 
               </td>
-                <td class="size-px whitespace-nowrap border-e dark:border-neutral-700">
+                <td class="  border-e dark:border-neutral-700">
                   @php
                       $status = $calonMahasiswa->nilai_test <= 80 ? 'tidak lulus' : 'lulus';
                   @endphp
@@ -185,7 +186,7 @@
                 
               @can('admin')
                 
-                <td class="size-px whitespace-nowrap">
+                <td class=" ">
                   <div class="flex flex-col py-5  ">
                     <div class="pb-2">
                     <a href="/dashboard/mahasiswa/{{ $calonMahasiswa->id }}/edit" class="">
@@ -231,7 +232,6 @@
               </p>
             </div>
             <div class="flex bg-slate-800">
-
               {{ $calonMahasiswas->links() }}
             </div>
 

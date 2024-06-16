@@ -14,7 +14,9 @@ class CalonMahasiswaController extends Controller
     public function index()
     {
         return view('dashboard.mahasiswa.index', [
-            'calonMahasiswas' => CalonMahasiswa::first()->paginate(10),
+            'calonMahasiswas' => CalonMahasiswa::first()
+                ->sortable()
+                ->paginate(10),
             'title' => 'Dashboard | Calon Mahasiswa',
         ]);
     }
