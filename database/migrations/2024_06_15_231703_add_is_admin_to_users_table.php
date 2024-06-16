@@ -10,13 +10,8 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('calon_mahasiswas', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('jurusan_id');
-            $table->string('nama');
-            $table->string('asal_sekolah');
-            $table->integer('nilai_test');
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            $table->boolean('is_admin')->default(false); 
         });
     }
 
@@ -25,6 +20,8 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('calon_mahasiswas');
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('is_admin');
+        });
     }
 };

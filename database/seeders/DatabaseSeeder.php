@@ -15,19 +15,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
         User::create([
-            'name' => 'Ilhan Haffiyan Juldan',
-            'email' => 'ilhanzuldan11@gmail.com',
+            'name' => 'The Admin',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('123123123'),
         ]);
 
-        User::create([
-            'name' => 'Juldan HI',
-            'email' => 'ilhanzuldan@gmail.com',
-            'password' => bcrypt('123123123'),
-        ]);
+        CalonMahasiswa::factory(50)->create();
+        User::factory(5)->create();
 
         Jurusan::create([
             'nama' => 'Teknik Informatika',
@@ -52,7 +47,5 @@ class DatabaseSeeder extends Seeder
         Jurusan::create([
             'nama' => 'Teknik Elektro',
         ]);
-
-        CalonMahasiswa::factory(5)->create();
     }
 }

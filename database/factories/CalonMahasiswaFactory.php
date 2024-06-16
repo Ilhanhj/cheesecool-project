@@ -16,10 +16,17 @@ class CalonMahasiswaFactory extends Factory
      */
     public function definition(): array
     {
+        $asalSekolah =
+            $this->faker->randomElement(['SMA', 'SMK']) .
+            ' ' .
+            $this->faker->city() .
+            ' ' .
+            $this->faker->randomNumber(1, 99); // Angka acak dua digit
+
         return [
-            'jurusan_id' => mt_rand(1,5),
-            'nama' => $this->faker->sentence(mt_rand(1,2)),
-            'asal_sekolah' => $this->faker->sentence(mt_rand(1,2)),
+            'jurusan_id' => mt_rand(1, 5),
+            'nama' => fake()->name(),
+            'asal_sekolah' => $asalSekolah,
             'nilai_test' => $this->faker->numberBetween(0, 100),
         ];
     }
