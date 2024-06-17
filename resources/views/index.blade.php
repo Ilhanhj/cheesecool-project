@@ -2,13 +2,13 @@
 
 
 <!-- ========== HERO ========== -->
-<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" >
   @section('container')
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 lg:pt-20 lg:pb-40 py-20">
       
           <!-- Title -->
           <div class="max-w-5xl mx-auto mt-5 leading-8 text-center ">
-            <h1 class="block text-3xl font-bold text-white md:text-5xl lg:text-6xl ">
+            <h1 class="block text-3xl font-bold text-white md:text-5xl lg:text-6xl" >
               Selamat datang di Universitas <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text">Terbaik di Indonesia</span>
             </h1>
           </div>
@@ -52,25 +52,25 @@
     <!-- ========== END PARTNERS ========== -->
 
     <!-- ========== ABOUT ========== -->
-<div class="relative overflow-hidden before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowTop before:bg-no-repeat before:bg-opacity-10 before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="tentang">
+<div class="relative overflow-hidden before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowTop before:bg-no-repeat before:bg-opacity-10 before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="tentang" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
   <div class="max-w-[85rem] px-4 sm:px-6 lg:px-14 mx-auto">
     <div class="relative p-6 md:p-16" >
     <!-- Grid -->
-      <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
+      <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200">
         <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
     <!-- Start Title -->
-    <div class="max-w-5xl mx-auto mt-5 leading-8  text-center lg:text-start ">
+    <div class="max-w-5xl mx-auto mt-5 leading-8  text-center lg:text-start">
       <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl ">
-      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20">Tentang Cheesecool University </span>
+      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20 ">Tentang Cheesecool University </span>
       </h1>
     </div>
     <!-- End Title -->
 
         <!-- Tab Navs -->
-        <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
+        <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist"data-aos="fade-up" data-aos-delay="200">
 
 
-          <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg active" id="tabs-with-card-item-1 " data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+          <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg active" id="tabs-with-card-item-1 " data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab" data-aos="zoom-in-down" data-aos-delay="600">
             <span class="flex">
               <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 11.3333L0 9L12 2L24 9V17.5H22V10.1667L20 11.3333V18.0113L19.7774 18.2864C17.9457 20.5499 15.1418 22 12 22C8.85817 22 6.05429 20.5499 4.22263 18.2864L4 18.0113V11.3333ZM6 12.5V17.2917C7.46721 18.954 9.61112 20 12 20C14.3889 20 16.5328 18.954 18 17.2917V12.5L12 16L6 12.5ZM3.96927 9L12 13.6846L20.0307 9L12 4.31541L3.96927 9Z"></path></svg>
               <span class="grow ms-6">
@@ -140,23 +140,22 @@
     <!-- ========== END ABOUT ========== -->
 
     <!-- ========== JURUSAN ========== -->
-<div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10" id="jurusan">
+    <div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10" id="jurusan" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
     <!-- Start Title -->
-      <div class="max-w-xl mx-auto mt-5 leading-8 text-center ">
+      <div class="max-w-xl mx-auto mt-5 leading-8 text-center " data-aos="fade-up" data-aos-duration="1500">
         <h1 class="block text-2xl font-bold text-white md:text-4xl lg:text-5xl ">
         <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Program Studi</span>
         </h1>
       </div>
       <!-- End Title -->
-
-      <div class="max-w-2xl mx-auto mt-5 text-center lg:pb-20">
+      <div class="max-w-2xl mx-auto mt-5 text-center lg:pb-20" data-aos="fade-up" data-aos-delay="200">
         <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400"> Berbagai program studi unggulan dengan kurikulum yang terbaik.</p>
       </div>
     <!-- Icon Blocks -->
   <div class="max-w-[85rem] px-10 py-10 sm:px-6 lg:px-32 lg:py-14 mx-auto">
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center lg:justify-center  gap-12">
     <!-- Icon Block --> 
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in" data-aos-delay="400">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path></svg>
       </div>
@@ -168,7 +167,7 @@
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-up" data-aos-delay="600">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5V2C7 1.44772 7.44772 1 8 1H16C16.5523 1 17 1.44772 17 2V5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V6C2 5.44772 2.44772 5 3 5H7ZM15 7H9V19H15V7ZM7 7H4V19H7V7ZM17 7V19H20V7H17ZM9 3V5H15V3H9Z"></path></svg>
       </div>
@@ -180,7 +179,7 @@
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl"  data-aos="zoom-in-down" data-aos-delay="500">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M15.4565 9.67503L15.3144 9.53297C14.6661 8.90796 13.8549 8.43369 12.9235 8.18412C10.0168 7.40527 7.22541 9.05273 6.43185 12.0143C6.38901 12.1742 6.36574 12.3537 6.3285 12.8051C6.17423 14.6752 5.73449 16.0697 4.5286 17.4842C6.78847 18.3727 9.46572 18.9986 11.5016 18.9986C13.9702 18.9986 16.1644 17.3394 16.8126 14.9202C17.3306 12.9869 16.7513 11.0181 15.4565 9.67503ZM13.2886 6.21301L18.2278 2.37142C18.6259 2.0618 19.1922 2.09706 19.5488 2.45367L22.543 5.44787C22.8997 5.80448 22.9349 6.37082 22.6253 6.76891L18.7847 11.7068C19.0778 12.8951 19.0836 14.1721 18.7444 15.4379C17.8463 18.7897 14.8142 20.9986 11.5016 20.9986C8 20.9986 3.5 19.4967 1 17.9967C4.97978 14.9967 4.04722 13.1865 4.5 11.4967C5.55843 7.54658 9.34224 5.23935 13.2886 6.21301ZM16.7015 8.09161C16.7673 8.15506 16.8319 8.21964 16.8952 8.28533L18.0297 9.41984L20.5046 6.23786L18.7589 4.4921L15.5769 6.96698L16.7015 8.09161Z"></path></svg>
       </div>
@@ -192,7 +191,7 @@
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in" data-aos-delay="400">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 19H23V21H1V19H3V4C3 3.44772 3.44772 3 4 3H14C14.5523 3 15 3.44772 15 4V19H19V11H17V9H20C20.5523 9 21 9.44772 21 10V19ZM5 5V19H13V5H5ZM7 11H11V13H7V11ZM7 7H11V9H7V7Z"></path></svg>
       </div>
@@ -203,7 +202,7 @@
     </div>
     <!-- End Icon Block -->
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-up" data-aos-delay="600">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg  class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.9337 8.96494C16.426 5.03562 13.0675 2 9 2 4.58172 2 1 5.58172 1 10 1 11.8924 1.65707 13.6313 2.7555 15.0011 3.56351 16.0087 4.00033 17.1252 4.00025 18.3061L4 22H13L13.001 19H15C16.1046 19 17 18.1046 17 17V14.071L18.9593 13.2317C19.3025 13.0847 19.3324 12.7367 19.1842 12.5037L16.9337 8.96494ZM3 10C3 6.68629 5.68629 4 9 4 12.0243 4 14.5665 6.25141 14.9501 9.22118L15.0072 9.66262 16.5497 12.0881 15 12.7519V17H11.0017L11.0007 20H6.00013L6.00025 18.3063C6.00036 16.6672 5.40965 15.114 4.31578 13.7499 3.46818 12.6929 3 11.3849 3 10ZM21.1535 18.1024 19.4893 16.9929C20.4436 15.5642 21 13.8471 21 12.0001 21 10.153 20.4436 8.4359 19.4893 7.00722L21.1535 5.89771C22.32 7.64386 23 9.74254 23 12.0001 23 14.2576 22.32 16.3562 21.1535 18.1024Z"></path></svg>
       </div>
@@ -215,7 +214,7 @@
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-down" data-aos-delay="500">
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 9H21L11 24V15H4L13 0V9ZM11 11V7.22063L7.53238 13H13V17.3944L17.263 11H11Z"></path></svg>
       </div>
@@ -232,21 +231,21 @@
     <!-- ========== END JURUSAN ========== -->
 
     <!-- ========== WHY US ========== -->
-  <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-halfBallCenter before:bg-opacity-95 before:bg-no-repeat before:bg-bottom  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-5">
+  <div class="relative overflow-hidden before:absolute before:start-1/2  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-5" data-aos="fade-up">
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
-              <h1 class="block text-2xl font-bold text-white md:text-2xl lg:text-3xl ">
+              <h1 class="block text-2xl font-bold text-white md:text-2xl lg:text-3xl " data-aos="fade-up">
                 <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Mengapa Cheesecool University ?</span>
                 </h1>
             </div>
-            <div class="w-full text-center lg:text-left">
+            <div class="w-full text-center lg:text-left"  data-aos="fade-right" data-aos-delay="500">
               <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja. Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
             <!-- Kurikulum Up-To-Date -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600"  data-aos="flip-left" data-aos-delay="500">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                         <path d="M12 4C14.7486 4 17.1749 5.38626 18.6156 7.5H16V9.5H22V3.5H20V5.99936C18.1762 3.57166 15.2724 2 12 2C6.47715 2 2 6.47715 2 12H4C4 7.58172 7.58172 4 12 4ZM20 12C20 16.4183 16.4183 20 12 20C9.25144 20 6.82508 18.6137 5.38443 16.5H8V14.5H2V20.5H4V18.0006C5.82381 20.4283 8.72764 22 12 22C17.5228 22 22 17.5228 22 12H20Z"></path>
@@ -256,7 +255,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Mata kuliah kami selalu mengikuti perkembangan industri, memastikan keterampilan lulusan tetap relevan.</p>
             </div>
             <!-- Dosen Berpengalaman -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600"  data-aos="flip-left" data-aos-delay="600">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                         <path d="M17 13C19.2091 13 21 14.7909 21 17C21 19.2091 19.2091 21 17 21C14.7909 21 13 19.2091 13 17H11C11 19.2091 9.20914 21 7 21C4.79086 21 3 19.2091 3 17C3 14.7909 4.79086 13 7 13C8.48052 13 9.77317 13.8043 10.4648 14.9999H13.5352C14.2268 13.8043 15.5195 13 17 13ZM7 15C5.89543 15 5 15.8954 5 17C5 18.1046 5.89543 19 7 19C8.10457 19 9 18.1046 9 17C9 15.8954 8.10457 15 7 15ZM17 15C15.8954 15 15 15.8954 15 17C15 18.1046 15.8954 19 17 19C18.1046 19 19 18.1046 19 17C19 15.8954 18.1046 15 17 15ZM16 3C18.2091 3 20 4.79086 20 7V10H22V12H2V10H4V7C4 4.79086 5.79086 3 8 3H16ZM16 5H8C6.94564 5 6 5.95 6 7V10H18V7C18 5.94564 17.05 5 16 5Z"></path>
@@ -266,7 +265,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Pengajaran oleh dosen ahli berpengalaman, memberikan bimbingan berkualitas tinggi dan wawasan praktis.</p>
             </div>
                 <!-- Fasilitas Canggih -->
-                <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600" data-aos="flip-left" data-aos-delay="700">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                         <path d="M13.5 2C13.5 2.44425 13.3069 2.84339 13 3.11805V5H18C19.6569 5 21 6.34315 21 8V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V8C3 6.34315 4.34315 5 6 5H11V3.11805C10.6931 2.84339 10.5 2.44425 10.5 2C10.5 1.17157 11.1716 0.5 12 0.5C12.8284 0.5 13.5 1.17157 13.5 2ZM6 7C5.44772 7 5 7.44772 5 8V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V8C19 7.44772 18.5523 7 18 7H13H11H6ZM2 10H0V16H2V10ZM22 10H24V16H22V10ZM9 14.5C9.82843 14.5 10.5 13.8284 10.5 13C10.5 12.1716 9.82843 11.5 9 11.5C8.17157 11.5 7.5 12.1716 7.5 13C7.5 13.8284 8.17157 14.5 9 14.5ZM15 14.5C15.8284 14.5 16.5 13.8284 16.5 13C16.5 12.1716 15.8284 11.5 15 11.5C14.1716 11.5 13.5 12.1716 13.5 13C13.5 13.8284 14.1716 14.5 15 14.5Z"></path>
@@ -276,7 +275,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Laboratorium riset modern dan teknologi canggih kami mendukung inovasi dan penelitian mutakhir mahasiswa.</p>
             </div>
             <!-- Koneksi Industri Kuat -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600" data-aos="flip-right" data-aos-delay="1200">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                         <path d="M19 2H9c-1.103 0-2 .897-2 2v6H5c-1.103 0-2 .897-2 2v9a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4c0-1.103-.897-2-2-2zM5 12h6v8H5v-8zm14 8h-6v-8c0-1.103-.897-2-2-2H9V4h10v16z"></path>
@@ -289,7 +288,7 @@
         </div>
         <div class="mt-11 flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
             <!-- Organisasi Beragam -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600" data-aos="flip-right" data-aos-delay="1100">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                         <path d="M8.5 7C8.5 8.10457 7.60457 9 6.5 9C5.39543 9 4.5 8.10457 4.5 7C4.5 5.89543 5.39543 5 6.5 5C7.60457 5 8.5 5.89543 8.5 7ZM2.5 7C2.5 9.20914 4.29086 11 6.5 11C8.70914 11 10.5 9.20914 10.5 7C10.5 4.79086 8.70914 3 6.5 3C4.29086 3 2.5 4.79086 2.5 7ZM9 16.5C9 15.1193 7.88071 14 6.5 14C5.11929 14 4 15.1193 4 16.5V19H9V16.5ZM11 21H2V16.5C2 14.0147 4.01472 12 6.5 12C8.98528 12 11 14.0147 11 16.5V21ZM19.5 7C19.5 8.10457 18.6046 9 17.5 9C16.3954 9 15.5 8.10457 15.5 7C15.5 5.89543 16.3954 5 17.5 5C18.6046 5 19.5 5.89543 19.5 7ZM13.5 7C13.5 9.20914 15.2909 11 17.5 11C19.7091 11 21.5 9.20914 21.5 7C21.5 4.79086 19.7091 3 17.5 3C15.2909 3 13.5 4.79086 13.5 7ZM20 16.5C20 15.1193 18.8807 14 17.5 14C16.1193 14 15 15.1193 15 16.5V19H20V16.5ZM13 19V16.5C13 14.0147 15.0147 12 17.5 12C19.9853 12 22 14.0147 22 16.5V21H13V19Z"></path>
@@ -299,7 +298,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Tersedia berbagai organisasi dan klub mahasiswa untuk mengembangkan minat dan bakat di luar akademik.</p>
             </div>
             <!-- Jaringan Alumni -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600" data-aos="flip-right" data-aos-delay="1000">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                 <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path d="M11.8611 2.39057C12.8495 1.73163 14.1336 1.71797 15.1358 2.35573L19.291 4.99994H20.9998C21.5521 4.99994 21.9998 5.44766 21.9998 5.99994V14.9999C21.9998 15.5522 21.5521 15.9999 20.9998 15.9999H19.4801C19.5396 16.9472 19.0933 17.9102 18.1955 18.4489L13.1021 21.505C12.4591 21.8907 11.6609 21.8817 11.0314 21.4974C10.3311 22.1167 9.2531 22.1849 8.47104 21.5704L3.33028 17.5312C2.56387 16.9291 2.37006 15.9003 2.76579 15.0847C2.28248 14.7057 2 14.1254 2 13.5109V6C2 5.44772 2.44772 5 3 5H7.94693L11.8611 2.39057ZM4.17264 13.6452L4.86467 13.0397C6.09488 11.9632 7.96042 12.0698 9.06001 13.2794L11.7622 16.2518C12.6317 17.2083 12.7903 18.6135 12.1579 19.739L17.1665 16.7339C17.4479 16.5651 17.5497 16.2276 17.4448 15.9433L13.0177 9.74551C12.769 9.39736 12.3264 9.24598 11.9166 9.36892L9.43135 10.1145C8.37425 10.4316 7.22838 10.1427 6.44799 9.36235L6.15522 9.06958C5.58721 8.50157 5.44032 7.69318 5.67935 7H4V13.5109L4.17264 13.6452ZM14.0621 4.04306C13.728 3.83047 13.3 3.83502 12.9705 4.05467L7.56943 7.65537L7.8622 7.94814C8.12233 8.20827 8.50429 8.30456 8.85666 8.19885L11.3419 7.45327C12.5713 7.08445 13.8992 7.53859 14.6452 8.58303L18.5144 13.9999H19.9998V6.99994H19.291C18.9106 6.99994 18.5381 6.89148 18.2172 6.68727L14.0621 4.04306ZM6.18168 14.5448L4.56593 15.9586L9.70669 19.9978L10.4106 18.7659C10.6256 18.3897 10.5738 17.9178 10.2823 17.5971L7.58013 14.6247C7.2136 14.2215 6.59175 14.186 6.18168 14.5448Z"></path></svg>
                 </div>
@@ -307,7 +306,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Jaringan alumni yang luas membantu memperluas peluang karir dan koneksi profesional.</p>
             </div>
                 <!-- Kampus Nyaman -->
-                <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+                <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600"  data-aos="flip-right" data-aos-delay="900">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                     <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><circle cx="8.5" cy="9.5" r="1.5"></circle><circle cx="15.493" cy="9.493" r="1.493"></circle><path d="M12 18c5 0 6-5 6-5H6s1 5 6 5z"></path>
@@ -317,7 +316,7 @@
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Lingkungan kampus yang modern dan nyaman mendukung kegiatan akademik dan sosial, ciptakan suasana belajar kondusif.</p>
             </div>
             <!-- Program Internasional -->
-            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600">
+            <div class="group relative w-full rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-purple-600"  data-aos="flip-right" data-aos-delay="800">
                 <div class="rounded-full flex justify-center items-center mb-5 w-14 h-14 group-hover:bg-white">
                     <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
                        <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z"></path>
@@ -334,12 +333,12 @@
     <!-- ========== ALUR PENDAFTARAN ========== -->
     <div class="px-10 mx-auto max-w-5xl  sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Alur Pendaftaran</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8">
+            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text" data-aos="zoom-in" data-aos-delay="300">Alur Pendaftaran</h2>
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="slide-up" data-aos-delay="500">
                 Kesempatan gratis menjadi professor dengan empat langkah
             </p>
         </div>
-        <ul class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+        <ul class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4" data-aos="fade-left">
             <li class="flex-start group relative flex lg:flex-col">
                 <span
                     class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-600 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
@@ -351,7 +350,7 @@
                         <path d="M17.6567 14.8284L16.2425 13.4142L17.6567 12C19.2188 10.4379 19.2188 7.90524 17.6567 6.34314C16.0946 4.78105 13.5619 4.78105 11.9998 6.34314L10.5856 7.75736L9.17139 6.34314L10.5856 4.92893C12.9287 2.58578 16.7277 2.58578 19.0709 4.92893C21.414 7.27208 21.414 11.0711 19.0709 13.4142L17.6567 14.8284ZM14.8282 17.6569L13.414 19.0711C11.0709 21.4142 7.27189 21.4142 4.92875 19.0711C2.5856 16.7279 2.5856 12.9289 4.92875 10.5858L6.34296 9.17157L7.75717 10.5858L6.34296 12C4.78086 13.5621 4.78086 16.0948 6.34296 17.6569C7.90506 19.2189 10.4377 19.2189 11.9998 17.6569L13.414 16.2426L14.8282 17.6569ZM14.8282 7.75736L16.2425 9.17157L9.17139 16.2426L7.75717 14.8284L14.8282 7.75736Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Daftar melalui Website
@@ -370,7 +369,7 @@
                         <path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM6.02332 15.4163C7.49083 17.6069 9.69511 19 12.1597 19C14.6243 19 16.8286 17.6069 18.2961 15.4163C16.6885 13.9172 14.5312 13 12.1597 13C9.78821 13 7.63095 13.9172 6.02332 15.4163ZM12 11C13.6569 11 15 9.65685 15 8C15 6.34315 13.6569 5 12 5C10.3431 5 9 6.34315 9 8C9 9.65685 10.3431 11 12 11Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Profil Biodata
@@ -389,7 +388,7 @@
                           <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Pilih Jurusan
@@ -408,7 +407,7 @@
                         <path d="M12 2C12.5523 2 13 2.44772 13 3V6C13 6.55228 12.5523 7 12 7C11.4477 7 11 6.55228 11 6V3C11 2.44772 11.4477 2 12 2ZM12 17C12.5523 17 13 17.4477 13 18V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V18C11 17.4477 11.4477 17 12 17ZM22 12C22 12.5523 21.5523 13 21 13H18C17.4477 13 17 12.5523 17 12C17 11.4477 17.4477 11 18 11H21C21.5523 11 22 11.4477 22 12ZM7 12C7 12.5523 6.55228 13 6 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H6C6.55228 11 7 11.4477 7 12ZM19.0711 19.0711C18.6805 19.4616 18.0474 19.4616 17.6569 19.0711L15.5355 16.9497C15.145 16.5592 15.145 15.9261 15.5355 15.5355C15.9261 15.145 16.5592 15.145 16.9497 15.5355L19.0711 17.6569C19.4616 18.0474 19.4616 18.6805 19.0711 19.0711ZM8.46447 8.46447C8.07394 8.85499 7.44078 8.85499 7.05025 8.46447L4.92893 6.34315C4.53841 5.95262 4.53841 5.31946 4.92893 4.92893C5.31946 4.53841 5.95262 4.53841 6.34315 4.92893L8.46447 7.05025C8.85499 7.44078 8.85499 8.07394 8.46447 8.46447ZM4.92893 19.0711C4.53841 18.6805 4.53841 18.0474 4.92893 17.6569L7.05025 15.5355C7.44078 15.145 8.07394 15.145 8.46447 15.5355C8.85499 15.9261 8.85499 16.5592 8.46447 16.9497L6.34315 19.0711C5.95262 19.4616 5.31946 19.4616 4.92893 19.0711ZM15.5355 8.46447C15.145 8.07394 15.145 7.44078 15.5355 7.05025L17.6569 4.92893C18.0474 4.53841 18.6805 4.53841 19.0711 4.92893C19.4616 5.31946 19.4616 5.95262 19.0711 6.34315L16.9497 8.46447C16.5592 8.85499 15.9261 8.85499 15.5355 8.46447Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                        Validasi Data
@@ -427,7 +426,7 @@
                         <path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Kerjakan Test
@@ -443,7 +442,7 @@
                         <path d="M12 2 0 9 12 16 22 10.1667V17.5H24V9L12 2ZM3.99902 13.4905V18.0001C5.82344 20.429 8.72812 22.0001 11.9998 22.0001 15.2714 22.0001 18.1761 20.429 20.0005 18.0001L20.0001 13.4913 12.0003 18.1579 3.99902 13.4905Z"></path>
                     </svg>
                 </div>
-                <div class="ml-6 lg:ml-0 lg:mt-10">
+                <div class="ml-6 lg:ml-0 lg:mt-10" data-aos="slide-up">
                     <h3
                         class="text-xl font-semibold text-gray-500 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                         Sukses
@@ -457,8 +456,8 @@
 
     <!-- ========== TESTIMONIAL ========== -->
     <div class="text-center py-16 md:py-32 lg:py-32">
-            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">Cheesecool Hall of Fame</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8">
+            <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text" data-aos="fade-zoom-in" data-aos-delay="300">Cheesecool Hall of Fame</h2>
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="flip-left" data-aos-delay="300">
             Lulusan terbaik Cheesecool University yang terkenal memberikan testimoni tentang pengalamannya di kampus.
             </p>
     </div>
@@ -469,7 +468,7 @@
     <ul class="space-y-8">
       <!--iqbal's block-->
         <li class="text-sm leading-6">
-            <div class="relative group">
+            <div class="relative group" data-aos="fade-right" data-aos-offset="200">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
                 </div><a href="https://baleehash.github.io/portfolio-website/" class="cursor-pointer">
@@ -490,7 +489,7 @@
         </li>
         <!--ilhan's block-->
         <li class="text-sm leading-6">
-            <div class="relative group">
+            <div class="relative group" data-aos="slide-up">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
                 </div><a href="https://ilhanhj-portfolio-v2.vercel.app/" class="cursor-pointer">
@@ -510,7 +509,7 @@
             </div>
         </li>
         <!--amba's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="fade-right" data-aos-offset="100">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -535,7 +534,7 @@
 <!--second block-->
     <ul class="hidden space-y-8 sm:block">
       <!--ginanjar's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="fade-down">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -556,7 +555,7 @@
             </div>
         </li>
         <!--speed's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="zoom-in">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -577,7 +576,7 @@
             </div>
         </li>
         <!--ridwan's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="slide-up">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -603,7 +602,7 @@
 <!--third block-->
     <ul class="hidden space-y-8 lg:block">
     <!--aan's block-->
-    <li class="text-sm leading-6">
+    <li class="text-sm leading-6" data-aos="zoom-in-down">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -624,7 +623,7 @@
             </div>
         </li>
         <!--hanball's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="zoom-in-left">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -645,7 +644,7 @@
             </div>
         </li>
         <!--dedi's block-->
-        <li class="text-sm leading-6">
+        <li class="text-sm leading-6" data-aos="flip-left">
             <div class="relative group">
                 <div
                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -677,8 +676,8 @@
   <!-- Title -->
   <div class="max-w-3xl mx-auto text-center mb-10">
     <div class="text-center py-16 md:py-32">
-      <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text pb-1">Pertanyaan Anda, Terjawab</h2>
-      <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8">
+      <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text pb-1" data-aos="flip-down" data-aos-delay="300" data-aos-offset="200">Pertanyaan Anda, Terjawab</h2>
+      <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="fade-right" data-aos-offset="300">
         Jawaban untuk pertanyaan yang paling sering diajukan.</p>
   </div>
   </div>
@@ -687,7 +686,7 @@
   <div class="max-w-2xl mx-auto">
     <!-- Accordion -->
     <div class="hs-accordion-group">
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900 active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900 active" id="hs-basic-with-title-and-arrow-stretched-heading-one"  data-aos="zoom-in-down" data-aos-offset="300">
         <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
         Bagaimana cara mendaftar di Cheesecool University?
           <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
@@ -771,21 +770,21 @@
 <!-- ========== END FAQ ========== -->
 
     <!-- ========== CONTACT ========== -->
-    <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact">
+    <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact"  data-aos="fade-up" data-aos-offset="300">
     <div class="container px-10 lg:px-32 mx-auto" id="contact">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
-                <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0 pb-2">
+                <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0 pb-2"  data-aos="fade-left" data-aos-offset="300">
                     Hubungi Kami
                 </h1>
-                <p class="mt-5 text-lg text-gray-400">Kami siap membantu pertanyaan penerimaan. Hubungi kami di:</p>
-                <div class="mt-6 space-y-8 md:mt-8">
-                    <p class="flex items-start -mx-2">
+                <p class="mt-5 text-lg text-gray-400"  data-aos="fade-left" data-aos-offset="300">Kami siap membantu pertanyaan penerimaan. Hubungi kami di:</p>
+                <div class="mt-6 space-y-8 md:mt-8"  data-aos="zoom-in-down" data-aos-offset="300">
+                    <p class="flex items-start -mx-2"  data-aos="zoom-in-down" data-aos-offset="300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-purple-600 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <span class="mx-2 text-gray-700 truncate dark:text-gray-400">
+                        <span class="mx-2 text-gray-700 truncate dark:text-gray-400"  data-aos="zoom-in-down" data-aos-offset="300">
                         Jl. Soeharto No.666, Cisaranten Kulon, Kota Bandung.
                         </span>
                     </p>
@@ -806,7 +805,7 @@
                     </p>
                 </div>
 
-                <div class="mt-6 w-80 md:mt-8">
+                <div class="mt-6 w-80 md:mt-8"  data-aos="zoom-in-down" data-aos-offset="100">
                     <h3 class="text-gray-600 dark:text-gray-300 ">Ikuti Kami</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
@@ -837,7 +836,7 @@
                 </div>
             </div>
 
-            <div class="mt-8 lg:w-1/2 lg:mx-6">
+            <div class="mt-8 lg:w-1/2 lg:mx-6"  data-aos="fade-up" data-aos-offset="300">
                 <div
                     class="w-full px-8 py-10 mx-auto overflow-hidden lg:max-w-xl">
                     <form class="mt-6">
