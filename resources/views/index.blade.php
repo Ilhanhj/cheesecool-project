@@ -140,7 +140,7 @@
     <!-- ========== END ABOUT ========== -->
 
     <!-- ========== JURUSAN ========== -->
-    <div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10" id="jurusan" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+<div class="relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10" id="jurusan" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
     <!-- Start Title -->
       <div class="max-w-xl mx-auto mt-5 leading-8 text-center " data-aos="fade-up" data-aos-duration="1500">
         <h1 class="block text-2xl font-bold text-white md:text-4xl lg:text-5xl ">
@@ -155,7 +155,8 @@
   <div class="max-w-[85rem] px-10 py-10 sm:px-6 lg:px-32 lg:py-14 mx-auto">
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center lg:justify-center  gap-12">
     <!-- Icon Block --> 
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in" data-aos-delay="400">
+    <div class="" data-aos="zoom-in" data-aos-delay="400">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path></svg>
       </div>
@@ -164,10 +165,12 @@
         <p class="mt-1 text-gray-600 lg:text-start text-start">Pelajari ilmu komputer dengan pendekatan teknologi yang praktis dan inovatif.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-up" data-aos-delay="600">
+    <div class="" data-aos="zoom-in-up" data-aos-delay="600">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5V2C7 1.44772 7.44772 1 8 1H16C16.5523 1 17 1.44772 17 2V5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V6C2 5.44772 2.44772 5 3 5H7ZM15 7H9V19H15V7ZM7 7H4V19H7V7ZM17 7V19H20V7H17ZM9 3V5H15V3H9Z"></path></svg>
       </div>
@@ -176,10 +179,12 @@
         <p class="mt-1 text-gray-600">Kembangkan keterampilan bisnis global untuk karir yang sukses di pasar global.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl"  data-aos="zoom-in-down" data-aos-delay="500">
+    <div class=""data-aos="zoom-in-down" data-aos-delay="500">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl"  >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M15.4565 9.67503L15.3144 9.53297C14.6661 8.90796 13.8549 8.43369 12.9235 8.18412C10.0168 7.40527 7.22541 9.05273 6.43185 12.0143C6.38901 12.1742 6.36574 12.3537 6.3285 12.8051C6.17423 14.6752 5.73449 16.0697 4.5286 17.4842C6.78847 18.3727 9.46572 18.9986 11.5016 18.9986C13.9702 18.9986 16.1644 17.3394 16.8126 14.9202C17.3306 12.9869 16.7513 11.0181 15.4565 9.67503ZM13.2886 6.21301L18.2278 2.37142C18.6259 2.0618 19.1922 2.09706 19.5488 2.45367L22.543 5.44787C22.8997 5.80448 22.9349 6.37082 22.6253 6.76891L18.7847 11.7068C19.0778 12.8951 19.0836 14.1721 18.7444 15.4379C17.8463 18.7897 14.8142 20.9986 11.5016 20.9986C8 20.9986 3.5 19.4967 1 17.9967C4.97978 14.9967 4.04722 13.1865 4.5 11.4967C5.55843 7.54658 9.34224 5.23935 13.2886 6.21301ZM16.7015 8.09161C16.7673 8.15506 16.8319 8.21964 16.8952 8.28533L18.0297 9.41984L20.5046 6.23786L18.7589 4.4921L15.5769 6.96698L16.7015 8.09161Z"></path></svg>
       </div>
@@ -188,10 +193,12 @@
         <p class="mt-1 text-gray-600">Asah kreativitas bidang desain visual dan komunikasi dengan teknologi terkini.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in" data-aos-delay="400">
+    <div class="" data-aos="zoom-in" data-aos-delay="400">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 19H23V21H1V19H3V4C3 3.44772 3.44772 3 4 3H14C14.5523 3 15 3.44772 15 4V19H19V11H17V9H20C20.5523 9 21 9.44772 21 10V19ZM5 5V19H13V5H5ZM7 11H11V13H7V11ZM7 7H11V9H7V7Z"></path></svg>
       </div>
@@ -200,9 +207,11 @@
         <p class="mt-1 text-gray-600">Dapatkan pengetahuan mendalam tentang desain dan konstruksi pembangunan.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-up" data-aos-delay="600">
+    <div class="" data-aos="zoom-in-up" data-aos-delay="600">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg  class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.9337 8.96494C16.426 5.03562 13.0675 2 9 2 4.58172 2 1 5.58172 1 10 1 11.8924 1.65707 13.6313 2.7555 15.0011 3.56351 16.0087 4.00033 17.1252 4.00025 18.3061L4 22H13L13.001 19H15C16.1046 19 17 18.1046 17 17V14.071L18.9593 13.2317C19.3025 13.0847 19.3324 12.7367 19.1842 12.5037L16.9337 8.96494ZM3 10C3 6.68629 5.68629 4 9 4 12.0243 4 14.5665 6.25141 14.9501 9.22118L15.0072 9.66262 16.5497 12.0881 15 12.7519V17H11.0017L11.0007 20H6.00013L6.00025 18.3063C6.00036 16.6672 5.40965 15.114 4.31578 13.7499 3.46818 12.6929 3 11.3849 3 10ZM21.1535 18.1024 19.4893 16.9929C20.4436 15.5642 21 13.8471 21 12.0001 21 10.153 20.4436 8.4359 19.4893 7.00722L21.1535 5.89771C22.32 7.64386 23 9.74254 23 12.0001 23 14.2576 22.32 16.3562 21.1535 18.1024Z"></path></svg>
       </div>
@@ -211,10 +220,12 @@
         <p class="mt-1 text-gray-600">Pelajari strategi komunikasi yang efektif untuk berbagai media dan industri.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
 
     <!-- Icon Block -->
-    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" data-aos="zoom-in-down" data-aos-delay="500">
+    <div class="" data-aos="zoom-in-down" data-aos-delay="500">
+    <div class="relative p-5 bg-slate-900 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl" >
       <div class="relative flex justify-center lg:justify-center items-center size-12 lg:size-12 bg-oldNavy rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-purple-600 before:rounded-xl">
         <svg class="flex-shrink-0 size-6 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 9H21L11 24V15H4L13 0V9ZM11 11V7.22063L7.53238 13H13V17.3944L17.263 11H11Z"></path></svg>
       </div>
@@ -223,6 +234,7 @@
         <p class="mt-1 text-gray-600">Eksplorasi dunia listrik dan elektronik pengembangan dan aplikasi teknologi elektro.</p>
       </div>
     </div>
+  </div>
     <!-- End Icon Block -->
 
   </div>
@@ -770,7 +782,7 @@
 <!-- ========== END FAQ ========== -->
 
     <!-- ========== CONTACT ========== -->
-    <div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact"  data-aos="fade-up" data-aos-offset="300">
+<div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact"  data-aos="fade-up" data-aos-offset="300">
     <div class="container px-10 lg:px-32 mx-auto" id="contact">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -855,7 +867,7 @@
                             <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize mt-10 inline-flex col-span-2 items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 dark:focus:ring-offset-gray-800">
+                        <button class="w-full lg:px-6 lg:py-3 lg:mt-6   tracking-wide text-white capitalize mt-10 inline-flex col-span-2 items-center justify-center px-4 py-3 text-sm font-medium text-center  border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 dark:focus:ring-offset-gray-800">
                             Kirim Pesan
                         </button>
                     </form>

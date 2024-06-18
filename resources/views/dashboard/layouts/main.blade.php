@@ -29,13 +29,13 @@
 
         @yield('container')
 
-
+      </body>
+      
 <!-- JS PLUGINS -->
 <script src="../assets/vendor/preline/dist/index.js"></script>
 <!-- Apexcharts -->
 <script src="../assets/vendor/lodash/lodash.min.js"></script>
 <script src="../assets/vendor/apexcharts/dist/apexcharts.min.js"></script>
-
 <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
 
 <script>
@@ -399,5 +399,4 @@
     })();
   });
 </script>
-</body>
 </html>
