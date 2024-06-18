@@ -25,9 +25,10 @@ class CalonMahasiswaFactory extends Factory
 
         return [
             'jurusan_id' => mt_rand(1, 5),
-            'nama' => fake()->name(),
+            'nama' => fake()->firstName() . ' ' . fake()->lastName(),
             'asal_sekolah' => $asalSekolah,
             'nilai_test' => $this->faker->numberBetween(0, 100),
+            
         ];
     }
 }
