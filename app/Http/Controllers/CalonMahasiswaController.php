@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\CalonMahasiswa;
 use App\Models\Jurusan;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class CalonMahasiswaController extends Controller
 {
@@ -13,6 +14,10 @@ class CalonMahasiswaController extends Controller
      */
     public function index()
     {
+        $title = 'Hapus Calon Mahasiswa!';
+        $text = "Yakin akan menghapus Calon Mahasiswa?";
+        confirmDelete($title, $text);
+
         return view('dashboard.mahasiswa.index', [
             'calonMahasiswas' => CalonMahasiswa::first()
                 ->sortable()
@@ -44,6 +49,10 @@ class CalonMahasiswaController extends Controller
             'nilai_test' => 'required|integer|between:1,100',
         ]);
 
+        Alert::success(
+            'Data Berhasil Ditambahkan',
+            'Data calon mahasiswa berhasil ditambahkan'
+        );
         CalonMahasiswa::create($validatedData);
         return redirect('/dashboard/mahasiswa')->with(
             'success',
@@ -85,6 +94,10 @@ class CalonMahasiswaController extends Controller
 
         $validatedData = $request->validate($rules);
 
+        Alert::success(
+            'Data Berhasil Diperbarui',
+            'Data calon mahasiswa berhasil diperbarui'
+        );
         CalonMahasiswa::where('id', $mahasiswa->id)->update($validatedData);
 
         return redirect('/dashboard/mahasiswa')->with(
@@ -98,6 +111,10 @@ class CalonMahasiswaController extends Controller
      */
     public function destroy(CalonMahasiswa $mahasiswa)
     {
+        Alert::success(
+            'Data Berhasil Dihapus',
+            'Data calon mahasiswa berhasil dihapus'
+        );
         CalonMahasiswa::destroy($mahasiswa->id);
 
         return redirect('/dashboard/mahasiswa')->with(
