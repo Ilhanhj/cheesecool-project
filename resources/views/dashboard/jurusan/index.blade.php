@@ -118,18 +118,16 @@
               </div>
                   
                
-                  <form action="/dashboard/jurusan/{{ $jurusan->id }}" method="POST">
+                 <a href="{{ route('jurusan.destroy', $jurusan->id) }}" data-confirm-delete="true" class="">
                     @method('delete')
                     @csrf
-                  <button class="" onclick="confirm()">
-                    <span class="px-6 py-1.5">
+                    <span class="px-6 py-1.5" >
                       <span class="py-1 px-2 inline-flex justify-center items-center gap-2 rounded-lg border font-medium bg-white text-gray-700 shadow-sm align-middle hover: focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-red-600 transition-all text-sm dark:bg-red-500 dark:hover:bg-red-700 dark:border-neutral-700 dark:text-white dark:hover:text-white dark:focus:ring-offset-red-800">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z"></path></svg>
                       Hapus
                     </span>
                   </span>
-                </button>
-                  </form>
+                </a>
                   
                 </div>
                 </td>
@@ -148,23 +146,6 @@
               </p>
             </div>
 
-            <div>
-              <div class="inline-flex gap-x-2">
-                <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover: disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
-                  <svg class="size-3" width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.506 1.64001L4.85953 7.28646C4.66427 7.48172 4.66427 7.79831 4.85953 7.99357L10.506 13.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                  Prev
-                </button>
-
-                <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover: disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
-                  Next
-                  <svg class="size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.50598 2L10.1524 7.64645C10.3477 7.84171 10.3477 8.15829 10.1524 8.35355L4.50598 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                </button>
-              </div>
-            </div>
           </div>
           <!-- End Footer -->
         </div>
@@ -173,16 +154,5 @@
   </div>
 <!-- End Table Section -->
   <!-- ========== END MAIN CONTENT ========== -->
-<script>
-  
-  function confirm(){
-  Swal.fire({
-  title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success"
-});
-  }
-
-</script>
 
 @endsection

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Jurusan;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class JurusanController extends Controller
 {
@@ -12,6 +13,10 @@ class JurusanController extends Controller
      */
     public function index()
     {
+        $title = 'Hapus Program Studi!';
+        $text = "Yakin akan menghapus Program Studi?";
+        confirmDelete($title, $text);
+
         return view('dashboard.jurusan.index', [
             'jurusans' => Jurusan::all(),
             'title' => 'Dashboard | Program Studi',
@@ -39,6 +44,10 @@ class JurusanController extends Controller
         ]);
 
         Jurusan::create($validatedData);
+        Alert::success(
+            'Data Berhasil Ditambahkan',
+            'Program Studi Baru berhasil ditambahkan'
+        );
         return redirect('/dashboard/jurusan')->with(
             'success',
             'Calon Jurusan Telah Ditambahkan'
@@ -77,6 +86,10 @@ class JurusanController extends Controller
         $validatedData = $request->validate($rules);
 
         Jurusan::where('id', $jurusan->id)->update($validatedData);
+        Alert::success(
+            'Data Berhasil Diperbarui',
+            'Program Studi berhasil diperbarui'
+        );
 
         return redirect('/dashboard/jurusan')->with(
             'success',
@@ -90,6 +103,10 @@ class JurusanController extends Controller
     public function destroy(Jurusan $jurusan)
     {
         Jurusan::destroy($jurusan->id);
+        Alert::success(
+            'Data Berhasil Dihapus',
+            'Program Studi berhasil Dihapus'
+        );
 
         return redirect('/dashboard/jurusan')->with(
             'success',

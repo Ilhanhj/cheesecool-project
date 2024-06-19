@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'The Admin',
             'email' => 'admin@gmail.com',
             'password' => bcrypt('123123123'),
+            'is_admin' => true,
         ]);
 
         CalonMahasiswa::factory(50)->create();
