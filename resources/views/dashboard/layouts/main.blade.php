@@ -41,6 +41,15 @@
 <script src="../assets/vendor/apexcharts/dist/apexcharts.min.js"></script>
 <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
 
+<!-- JS for particles.js -->
+<script src="{{ asset('node_modules/particles.js/particles.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script> 
+<script>
+    particlesJS.load('particles-js', '{{ asset('particles.json') }}', function() {
+        console.log('particles.js loaded - callback');
+    });
+</script>
+
 <script>
   window.addEventListener('load', () => {
     (function () {
