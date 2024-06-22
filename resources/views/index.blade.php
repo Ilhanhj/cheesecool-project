@@ -2,7 +2,7 @@
 
 
 <!-- ========== HERO ========== -->
-<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" >
+<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
   @section('container')
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 lg:pt-20 lg:pb-40 py-20">
       
@@ -243,7 +243,7 @@
     <!-- ========== END JURUSAN ========== -->
 
     <!-- ========== WHY US ========== -->
-  <div class="relative overflow-hidden before:absolute before:start-1/2  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-5" data-aos="fade-up">
+  <div class="relative overflow-hidden before:absolute before:start-1/2  before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-10  lg:py-5" data-aos="fade-up" id="particles-js">
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="whyus">
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
