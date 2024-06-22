@@ -1,16 +1,17 @@
 @extends('layouts.main')
 
 @section('container')
-<div class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-glowRectBig before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
-    <div class="flex justify-center items-center min-h-screen p-2">
-        <div class="w-full max-w-md p-6 border border-gray-500 dark:bg-[#030617] rounded-md shadow-md bg-white">
-            <div class="text-start py-5">
-                <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-10">
+<div class="relative overflow-hidden">
+    <div class="before:absolute before:top-0 before:start-1/2 before:bg-glowRectBig before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
+    <div class="flex justify-center items-start min-h-screen p-2">
+        <div class="w-full max-w-md p-6 border border-gray-500 dark:bg-[#030617] rounded-md shadow-md bg-white" id="auth-gsap">
+            <div class="text-start">
+                <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text">
                     Welcome, TrailBlazer
                 </h1>
 
                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-justify">
-                    Selamat datang di Portal Penerimaan Mahasiswa Universitas CheeseCool! Kelola aplikasi, unggah dokumen, dan alur pendaftaran yang mudah. Kami siap menyertai perjalanan pendidikan Anda!
+                    Selamat datang di Portal Penerimaan Mahasiswa Universitas CheeseCool! unggah dokumen, dan alur pendaftaran yang mudah.
                 </p>
             </div>
 
@@ -44,5 +45,6 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 @endsection

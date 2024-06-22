@@ -2,24 +2,50 @@
 
 
 <!-- ========== HERO ========== -->
-<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" >
+<div class="relative overflow-hidden" >
+  <div class="before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
   @section('container')
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 lg:pt-20 lg:pb-40 py-20">
-      
+           <svg id="motionPath" viewBox="-20 0 557 190" class="absolute">
+            <path id="path" fill="none" d="M8,102 C15,83 58,25 131,24 206,24 233,63 259,91 292,125 328,155 377,155 464,155 497,97 504,74"/> 
+            <g class="astronaut">
+              <path fill="#CCC" d="M25 127.7h.5v-16.1H4.1c.9 3.7 2.8 6.9 5.6 9.8 4.3 4.2 9.4 6.3 15.3 6.3m69.9 0h.1c5.9 0 11-2.1 15.2-6.3 2.9-2.9 4.7-6.1 5.6-9.8H94.4v16.1h.5M31.8 31.4c-4.3.9-8.1 2.9-11.4 6.2-4.5 4.5-6.7 9.9-6.7 16.2v13.6c3.3-2.1 7.1-3.2 11.3-3.2.9 0 1.7 0 2.6.1-1.5-3.9-2.3-8.2-2.3-12.7 0-7.6 2.2-14.3 6.5-20.2m74.5 36V53.8c0-6.3-2.2-11.7-6.7-16.2-3-3-6.5-5.1-10.4-6l-.2.8c3.9 5.6 5.8 12 5.8 19.2 0 4.2-.7 8.1-2 11.8l.1.8c.7-.1 1.4-.1 2.2-.1 4.1.1 7.8 1.2 11.2 3.3z"/>
+              <path fill="#FFF" d="M59.9 17.1h-.1c-9.5 0-17.6 3.4-24.3 10.1-1.3 1.3-2.5 2.7-3.6 4.2-4.3 5.9-6.5 12.6-6.5 20.3 0 4.6.8 8.8 2.3 12.7.2.6.5 1.2.8 1.8 1.7 3.6 4 6.9 7.1 9.9 3.3 3.3 6.8 5.7 10.7 7.4.1 0 .2.1.2.1.8.3 1.6.7 2.5.9 3.4 1.1 7.1 1.7 11 1.7 9.5 0 17.7-3.4 24.4-10.1 3.6-3.6 6.2-7.5 7.9-11.8l.3-.9c1.3-3.6 1.9-7.6 1.9-11.7 0-7.2-1.9-13.5-5.7-19.1l-.2-.2s0-.1-.1-.1l-.1-.1-.1-.1-.1-.1c0-.1-.1-.1-.1-.2 0 0 0-.1-.1-.1-1.1-1.5-2.3-2.9-3.7-4.3-6.8-6.9-14.9-10.3-24.4-10.3m50.2 53.4c-1.2-1.2-2.5-2.3-3.9-3.1-3.3-2.1-7.1-3.2-11.3-3.2-.7 0-1.5 0-2.2.1h-.4l-.3-.1c-1.7 4.3-4.3 8.3-7.9 11.8-6.7 6.7-14.9 10.1-24.4 10.1-3.9 0-7.6-.6-11-1.7-.8-.3-1.7-.6-2.5-.9-.1 0-.2-.1-.2-.1-3.9-1.7-7.5-4.2-10.7-7.4-3-3-5.4-6.3-7.1-9.9-.3-.6-.5-1.2-.8-1.8-.8-.1-1.7-.1-2.6-.1-4.2 0-8 1.1-11.3 3.2-1.4.9-2.7 1.9-3.9 3.1-4.2 4.2-6.3 9.2-6.3 15.2v20.6c0 1.9.2 3.7.6 5.4h21.4V89.1 145c.6 3.3 2.2 6.2 4.7 8.7 3.3 3.4 7.3 5 12 5s8.9-1.8 12.7-5.3c2.8-2.6 4.5-5.5 5-8.7v-15.9H47h26-13v15.9c.5 3.2 2.2 6.1 5 8.7 3.8 3.5 8 5.3 12.7 5.3 4.7 0 8.7-1.7 12-5 2.5-2.5 4-5.4 4.7-8.7V89v22.6h21.4c.4-1.7.6-3.5.6-5.4V85.6c0-5.8-2.1-10.9-6.3-15.1M60 118.1V88v30.1z"/>
+              <path fill="#2D2D2D" d="M59.7 2.5c-1.1 0-2 .4-2.7 1.1-.7.7-1.1 1.6-1.1 2.7s.4 2 1.1 2.7c.7.7 1.6 1.1 2.7 1.1s2-.4 2.7-1.1c.7-.7 1.1-1.6 1.1-2.7s-.4-2-1.1-2.7c-.7-.8-1.6-1.1-2.7-1.1z"/>
+              <path fill="none" stroke="#2D2D2D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M115.8 111.6c.4-1.7.6-3.5.6-5.4V85.6c0-5.9-2.1-11-6.3-15.2-1.2-1.2-2.5-2.3-3.9-3.1-3.3-2.1-7.1-3.2-11.3-3.2h0c-.7 0-1.5 0-2.2.1h-.4m-.2.1c-1.7 4.3-4.3 8.3-7.9 11.8-6.7 6.7-14.9 10.1-24.4 10.1-3.9 0-7.6-.6-11-1.7-.8-.3-1.7-.6-2.5-.9-.1 0-.2-.1-.2-.1-3.9-1.7-7.5-4.2-10.7-7.4-3-3-5.4-6.3-7.1-9.9-.3-.6-.5-1.2-.8-1.8-.8-.1-1.7-.1-2.6-.1h0c-4.2 0-8 1.1-11.3 3.2-1.4.9-2.7 1.9-3.9 3.1-4.2 4.2-6.3 9.2-6.3 15.2v20.6c0 1.9.2 3.7.6 5.4h21.4V89.2m80.9-21.8V53.8c0-6.3-2.2-11.7-6.7-16.2-3-3-6.5-5.1-10.4-6m-.3.8c3.9 5.6 5.8 12 5.8 19.2 0 4.2-.7 8.1-2 11.8m-33-53.3c-1.1 0-2-.4-2.7-1.1-.7-.7-1.1-1.6-1.1-2.7s.4-2 1.1-2.7c.7-.7 1.6-1.1 2.7-1.1s2 .4 2.7 1.1c.7.7 1.1 1.6 1.1 2.7s-.4 2-1.1 2.7c-.7.7-1.6 1.1-2.7 1.1v7.1h.1c9.5 0 17.7 3.4 24.4 10.1 1.4 1.4 2.6 2.8 3.7 4.3 0 0 0 .1.1.1 0 .1.1.1.1.2l.1.1s0 0 0 0l.1.1s0 0 0 0 0 0 0 0l.1.1h0l.1.1.2.2c3.8 5.6 5.7 12 5.7 19.1 0 4.2-.6 8.1-1.9 11.7l-.3.9m-3-32.6h0c-.1 0-.1 0 0 0-.1 0-.1 0 0 0-.3-.1-.6-.1-.8-.2h-.2s0 .1.1.1v.1c.1.1.2.3.3.4 0 0 0 0 0 0h0c.1.1.2.3.3.4 0 0 0 0 0 0m-57.1-1c1.1-1.4 2.3-2.8 3.6-4.2 6.7-6.7 14.8-10.1 24.3-10.1m-46 50.3V53.8c0-6.3 2.2-11.7 6.7-16.2 3.3-3.3 7.1-5.4 11.4-6.2-4.3 5.9-6.5 12.6-6.5 20.3 0 4.6.8 8.8 2.3 12.7m65.1-.9s0 0 0 0h0v.2l-.2.5c0 .1-.1.1-.1.2m2.3 63.3h.3c5.9 0 11-2.1 15.2-6.3 2.9-2.9 4.7-6.1 5.6-9.8H94.4v16.1h.2m0 0h0m-47.3 1.1H73m-13 16c.5 3.2 2.2 6.1 5 8.7 3.8 3.5 8 5.3 12.7 5.3 4.7 0 8.7-1.7 12-5 2.5-2.5 4-5.4 4.7-8.7v-17.3m-68.8-.1V145c.6 3.3 2.2 6.2 4.7 8.7 3.3 3.4 7.3 5 12 5s8.9-1.8 12.7-5.3c2.8-2.6 4.5-5.5 5-8.7v-15.9m-34.4-1.1s0 0 0 0h-.3s0 0 0 0H25c-5.9 0-11-2.1-15.2-6.3-2.9-2.9-4.7-6.1-5.6-9.8m21.4 0v16.1m68.8-38.6v22.6M60 118.1V88"/>
+              <path fill="#7592A0" d="M84.5 68.6c6.8-4.3 10.2-9.5 10.2-15.5 0-5.1-2.4-9.6-7.2-13.4H32c-4.8 3.8-7.3 8.3-7.3 13.4 0 6.1 3.4 11.2 10.2 15.5C41.7 72.9 50 75 59.6 75c9.8 0 18-2.1 24.9-6.4z"/>
+              <path fill="none" stroke="#2D2D2D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M94.7 53.1c0 6.1-3.4 11.2-10.2 15.5-6.8 4.3-15.1 6.4-24.7 6.4-9.7 0-17.9-2.1-24.7-6.4-6.8-4.3-10.2-9.5-10.2-15.5 0-5.1 2.4-9.6 7.3-13.4h55.5c4.6 3.8 7 8.3 7 13.4z"/>
+              <path fill="none" stroke="#E6E6E6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M83.5 47.6c2.4 3.5 2.4 7.8 0 12.7M35.8 47.6c-2.4 3.5-2.4 7.8 0 12.7"/>
+              <path fill="#581c87" stroke="#EF3D43" stroke-miterlimit="10" stroke-width="1.439" d="M70.9 95.9c0-4.807 3.893-8.7 8.7-8.7 4.807 0 8.7 3.893 8.7 8.7 0 4.807-3.893 8.7-8.7 8.7a8.698 8.698 0 0 1-8.7-8.7z"/>
+              <path fill="#FFF" d="M79.6 101.7c-1.7 0-2.8-.9-2.6-1.9.5-2.6.9-5.2 1.4-7.8.2-1 .4-2.8 1.2-2.8.8 0 1 1.8 1.2 2.8.5 2.6.9 5.2 1.4 7.8.3 1-.9 1.8-2.6 1.9z"/>
+              <path fill="#FFF" d="M76.4 101.2c-.4 0-.8-.3-.8-.8v-3.3c0-.4.3-.8.8-.8.4 0 .8.3.8.8v3.3c0 .5-.3.8-.8.8zm6.4 0c-.4 0-.7-.3-.7-.7v-3.3c0-.4.3-.7.7-.7.4 0 .7.3.7.7v3.3c.1.4-.3.7-.7.7z"/>
+              <g fill="#FFF">
+                <path d="M73.3 95.3a.7.7 0 1 1 1.4 0 .7.7 0 0 1-1.4 0z"/>
+                <path d="M73.9 95.3c0-.663.045-1.2.1-1.2.055 0 .1.537.1 1.2 0 .663-.045 1.2-.1 1.2-.055 0-.1-.537-.1-1.2z"/>
+                <path d="M72.7 95.3c0-.055.582-.1 1.3-.1.718 0 1.3.045 1.3.1 0 .055-.582.1-1.3.1-.718 0-1.3-.045-1.3-.1z"/>
+              </g>
+              <g fill="#FFF">
+                <path d="M84.1 93.4a.7.7 0 1 1 1.4 0 .7.7 0 0 1-1.4 0z"/>
+                <path d="M84.7 93.4c0-.663.045-1.2.1-1.2.055 0 .1.537.1 1.2 0 .663-.045 1.2-.1 1.2-.055 0-.1-.537-.1-1.2z"/>
+                <path d="M83.5 93.4c0-.055.582-.1 1.3-.1.718 0 1.3.045 1.3.1 0 .055-.582.1-1.3.1-.718 0-1.3-.045-1.3-.1z"/>
+              </g>
+            </g>
+          </svg> 
           <!-- Title -->
-          <div class="max-w-5xl mx-auto mt-5 leading-8 text-center ">
-            <h1 class="block text-3xl font-bold text-white md:text-5xl lg:text-6xl" >
-              Selamat datang di Universitas <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text">Terbaik di Indonesia</span>
+          <div class="max-w-5xl mx-auto mt-5 leading-8 text-center">
+            <h1 class="block text-3xl font-bold text-white md:text-5xl lg:text-6xl" id="hero-text">
+              Selamat datang di Universitas
             </h1>
+            <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl text-center text-transparent mt-2 from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text" id="hero-text">Terbaik di Indonesia</span>
           </div>
           <!-- End Title -->
       
           <div class="max-w-xl mx-auto mt-5 text-center">
-            <p class="text-lg text-gray-600 dark:text-neutral-400">Menyiapkan Generasi Pemimpin Masa Depan dengan Pendidikan Berkualitas</p>
+            <p class="text-sm lg:text-lg text-gray-600 dark:text-neutral-400" id="hero-text">Menyiapkan Generasi Pemimpin Masa Depan dengan Pendidikan Berkualitas</p>
           </div>
       
           <!-- Buttons -->
-          <div class="flex justify-center gap-3 mt-8">
+          <div class="flex justify-center gap-3 mt-8" id="hero-text">
             <a class="inline-flex items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-full gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 dark:focus:ring-offset-gray-800" href="#">
               <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM12.1779 7.17624C11.8055 7.06167 11.41 7 11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 10.59 14.9383 10.1945 14.8238 9.82212C14.5102 10.5166 13.8115 11 13 11C11.8954 11 11 10.1046 11 9C11 8.18846 11.4834 7.48982 12.1779 7.17624Z"></path></svg>
               Jelajahi Sekarang
@@ -27,6 +53,7 @@
           </div>
           <!-- End Buttons -->
         </div>
+      </div>
       </div>
     <!-- ========== END HERO ========== -->
     
@@ -61,7 +88,7 @@
     <!-- Start Title -->
     <div class="max-w-5xl mx-auto mt-5 leading-8  text-center lg:text-start">
       <h1 class="block text-2xl font-bold md:text-3xl lg:text-4xl ">
-      <span class="font-bold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20 ">Tentang Cheesecool University </span>
+      <span class="font-semibold bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent  text-center lg:text-start pt-20 ">Tentang Cheesecool University </span>
       </h1>
     </div>
     <!-- End Title -->
@@ -82,7 +109,7 @@
 
           <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg" id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
             <span class="flex">
-              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 1L13.001 4.06201C16.6192 4.51365 19.4869 7.38163 19.9381 11L23 11V13L19.938 13.001C19.4864 16.6189 16.6189 19.4864 13.001 19.938L13 23H11L11 19.9381C7.38163 19.4869 4.51365 16.6192 4.06201 13.001L1 13V11L4.06189 11C4.51312 7.38129 7.38129 4.51312 11 4.06189L11 1H13ZM12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z"></path></svg>
               <span class="grow ms-6">
                 <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200">Fokus pada Inovasi dan Teknologi
                 </span>
@@ -109,16 +136,16 @@
         <div class="relative">
           <!-- Tab Content -->
           <div>
-            <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
-              <img class="shadow-xl lg:w-[80%] shadow-gray-200 rounded-md dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description">
+            <div id="tabs-with-card-1"  role="tabpanel" aria-labelledby="tabs-with-card-item-1">
+              <img class=" lg:w-[80%] rounded-md " src="images/about/about-1.png" alt="Image Description" id="about-gsap">
             </div>
 
             <div id="tabs-with-card-2" class="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-2">
-              <img class="shadow-xl lg:w-[80%] shadow-gray-200 rounded-md dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description">
+              <img class=" lg:w-[80%] rounded-md " src="images/about/about-2.png" alt="Image Description" id="about-gsap">
             </div>
 
             <div id="tabs-with-card-3" class="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-3">
-              <img class="shadow-xl lg:w-[80%] shadow-gray-200 rounded-md dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description">
+              <img class=" lg:w-[80%] rounded-md " src="images/about/about-3.png" alt="Image Description" id="about-gsap">
             </div>
           </div>
           <!-- End Tab Content -->
@@ -144,11 +171,11 @@
     <!-- Start Title -->
       <div class="max-w-xl mx-auto mt-5 leading-8 text-center " data-aos="fade-up" data-aos-duration="1500">
         <h1 class="block text-2xl font-bold text-white md:text-4xl lg:text-5xl ">
-        <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Program Studi</span>
+        <span class="font-semibold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Program Studi</span>
         </h1>
       </div>
       <!-- End Title -->
-      <div class="max-w-2xl mx-auto mt-5 text-center lg:pb-20" data-aos="fade-up" data-aos-delay="200">
+      <div class="w-full px-4 mt-5 text-center lg:pb-20" data-aos="fade-up" data-aos-delay="200">
         <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400"> Berbagai program studi unggulan dengan kurikulum yang terbaik.</p>
       </div>
     <!-- Icon Blocks -->
@@ -248,11 +275,11 @@
         <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:flex-col lg:gap-y-6 max-md:max-w-lg max-md:mx-auto">
             <div class="relative w-full text-center lg:text-left lg:w-full">
               <h1 class="block text-2xl font-bold text-white md:text-2xl lg:text-3xl " data-aos="fade-up">
-                <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Mengapa Cheesecool University ?</span>
+                <span class="font-semibold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">Mengapa Cheesecool University ?</span>
                 </h1>
             </div>
-            <div class="w-full text-center lg:text-left"  data-aos="fade-right" data-aos-delay="500">
-              <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum kami relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja. Kami dikenal dengan kualitas pendidikan yang unggul, didukung oleh dosen berpengalaman dan fasilitas modern. Kami menawarkan kurikulum yang relevan dengan kebutuhan industri, memastikan lulusan kami siap bersaing di pasar kerja.</p>
+            <div class="w-full  text-center lg:text-left"  data-aos="fade-right" data-aos-delay="500">
+              <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum  relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">

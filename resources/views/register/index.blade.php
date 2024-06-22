@@ -2,12 +2,13 @@
 
 @section('container')
 
-<div class="relative overflow-hidden before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowRectBig before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:py-10 pb-80" >
-    <div class="flex justify-center min-h-screen">
-        <div class="hidden bg-cover lg:block lg:w-2/5" style="background-image: url('/images/register-bg.png')">
+<div class="relative overflow-hidden lg:py-10 pb-80" >
+    <div class=" before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowCenter before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
+    <div class="flex justify-center min-h-screen" >
+        <div class="hidden bg-cover lg:block lg:w-2/5" style="background-image: url('/images/register-bg.png')" id="img-ilhan">
         </div>
 
-        <div class="flex items-center w-full max-w-3xl p-2 mx-auto lg:px-8 lg:w-3/5">
+        <div class="flex items-center w-full max-w-3xl p-2 mx-auto lg:px-8 lg:w-3/5" id="img-iqbal">
             <div class="w-full p-8  border border-gray-500 dark:bg-oldNavy rounded-md shadow-md">
                 <h1 class="block text-2xl font-bold text-white md:text-3xl lg:text-4xl ">
                     <span class="font-bold  text-center lg:text-start text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text pt-20">                    Jadilah Bagian dari Universitas Terbaik!
@@ -76,6 +77,7 @@
                 <p class="mt-6 text-sm text-center text-gray-400">Sudah Punya Akun ? <a href="/login" class="text-purple-500 focus:outline-none focus:underline hover:underline">Login</a>.</p>
             </div>
         </div>
+    </div>
     </div>
 </div>
 </section>
