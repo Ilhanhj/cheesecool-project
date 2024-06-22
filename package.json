@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "aos": "^2.3.4",
+        "gsap": "^3.12.5",
         "preline": "^2.3.0",
         "sweetalert2": "^11.11.1",
         "taos": "^1.0.5"
