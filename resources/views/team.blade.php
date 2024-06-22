@@ -2,14 +2,15 @@
 
 {{-- TEAM PAGE --}}
 
-<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-balls before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2">    
+<div class="relative overflow-hidden">    
+  <div class="before:absolute before:top-0 before:start-1/2 before:bg-balls before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap-team">
 @section('container')
-    <div class="py-32">
+    <div class="py-5">
         <div class="container px-6 mx-auto md:px-12 xl:px-32">
-          <div class="mb-16">
-            <h2 class="mb-4 text-2xl font-bold text-center text-gray-800 dark:text-white md:text-4xl lg:text-5xl">
+          <div class="mb-5">
+            <h2 id="hero-text-2" class="mb-4 text-2xl font-bold text-center text-gray-800 dark:text-white md:text-4xl lg:text-5xl">
               <span class="font-bold text-center text-transparent from-purple-600 via-pink-600 to-purple-600 bg-gradient-to-r bg-clip-text"> Epik Kreatifitas Duo           </span></h2>
-            <p class="text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12 text-center">
+            <p class="text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12 text-center" id="hero-text-2">
               Dibuat oleh dua mahasiswa yang kreatif dan cerdas,  kami menggabungkan pemikiran kreatif  untuk menghasilkan fusion ide-ide luar biasa. 
             </p>
           </div>
@@ -22,13 +23,14 @@
                 loading="lazy"
                 width="1000"
                 height="667"
+                id="img-ilhan"
               />
               <div class="lg:text-start text-center flex flex-col ps-7 space-y-2">
                 <a href="https://ilhanhj-portfolio-v2.vercel.app/" class="">
-                  <h4 class="text-2xl text-gray-700 dark:text-purple-600 font-bold ">Ilhan Haffiyan Juldan</h4>
+                  <h4 class="text-2xl text-gray-700 dark:bg-gradient-to-t from-white to-white bg-clip-text text-transparent font-bold"  id="desc-text">Ilhan Haffiyan Juldan</h4>
                 </a>
-                <span class="block text-sm text-gray-500">224060031</span>
-                <span class="block text-sm text-gray-500">Teknik Informatika</span>  
+                <span class="block text-sm text-gray-500" id="desc-text">224060031</span>
+                <span class="block text-sm text-gray-500" id="desc-text">Teknik Informatika</span>  
                 <!-- Rating -->
 
                 <div class="flex items-center lg:justify-start justify-center">
@@ -70,6 +72,7 @@
                 loading="lazy"
                 width="1000"
                 height="667"
+                id="img-cc"
               />
               <div>
               </div>
@@ -82,13 +85,14 @@
                   loading="lazy"
                   width="1000"
                   height="667"
+                  id="img-iqbal"
                 />
                 <div class="lg:text-start text-center flex flex-col ps-7 space-y-2">
                   <a href="https://baleehash.github.io/portfolio-website/" class="">
-                    <h4 class="text-2xl text-gray-700 dark:text-purple-600 font-bold">Iqbal Maulana</h4>
+                    <h4 class="text-2xl text-gray-700 dark:bg-gradient-to-t from-white to-white bg-clip-text text-transparent font-bold" id="desc-text">Iqbal Maulana</h4>
                   </a>
-                  <span class="block text-sm text-gray-500">224060030</span>
-                  <span class="block text-sm text-gray-500">Teknik Informatika</span>
+                  <span class="block text-sm text-gray-500" id="desc-text">224060030</span>
+                  <span class="block text-sm text-gray-500" id="desc-text">Teknik Informatika</span>
                   <!-- Rating -->
                   <div class="flex items-center lg:justify-start justify-center">
                     <button type="button" class="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500">
@@ -122,6 +126,7 @@
               </div>
           </div>
         </div>
+      </div>
       </div>
                                           
   </div>
