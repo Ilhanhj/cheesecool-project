@@ -2,7 +2,6 @@
 
 
 <!-- ========== HERO ========== -->
-<div class="relative overflow-hidden  before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
 <div class="relative overflow-hidden" >
   <div class="before:absolute before:top-0 before:start-1/2 before:bg-glowBottom before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
   @section('container')
