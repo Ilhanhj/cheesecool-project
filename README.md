@@ -1,10 +1,10 @@
 <h1 align="center"> CheeseCool University </h1> <br>
 <p align="center">
-    <img alt="CheeseCool" title="CheeseCool" src="public/images/logo.png" width="450">
+    <img alt="CheeseCool" title="CheeseCool" src="public/images/register-bg.png" width="450">
 </p>
 
 <p align="center">
-  Welcome to the best Indonesian University
+  Selamat Datang di Universitas terbaik di Indonesia
 </p>
 
 ## Table of Contents
@@ -13,58 +13,65 @@
 -   [Features](#features)
 -   [Contributors](#contributors)
 -   [Technologies](#technologies)
--   [Getting Started](#gettingstarted)
+-   [Getting Started](#getting-started)
 
 ## Introduction
 
-Welcome to CheeseCool University, an innovative and student-centered educational platform designed to provide an exceptional learning experience for students and educators alike. Our mission is to cultivate a nurturing and inspiring environment that fosters academic excellence, personal growth, and professional development.
+Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif yang berpusat pada mahasiswa, dirancang untuk memberikan pengalaman belajar yang luar biasa bagi siswa dan pendidik. Misi kami adalah menciptakan lingkungan yang mendukung dan menginspirasi yang mendorong keunggulan akademik, pertumbuhan pribadi, dan pengembangan profesional.
 
 **Demo Preview**
 
-<p align="center">
-  <img src = "https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225" width=500>
-</p>
+"https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225"
 
 ## Features
 
--   **Comprehensive Dashboard:** Access all essential information and manage your academic activities with ease.
+-   **Dasbor Komprehensif:** Akses semua informasi penting dan kelola aktivitas akademis Anda dengan mudah.
 
--   **Student Management:** Track student progress, manage enrollments, and communicate effectively.
+-   **Manajemen Mahasiswa:** Pantau kemajuan siswa, kelola pendaftaran, dan berkomunikasi secara efektif.
 
--   **Program Management:** Explore various programs and courses offered, ensuring a diverse and inclusive curriculum.
+-   **Manajemen Program:** Jelajahi berbagai program dan kursus yang ditawarkan, memastikan kurikulum yang beragam dan inklusif.
 
--   **Interactive Sidebar:** Navigate through the platform with an intuitive and user-friendly sidebar.
+-   **Sidebar Interaktif:** Navigasi platform dengan sidebar yang intuitif dan ramah pengguna.
 
--   **User Profile:** Maintain and update your profile information, keeping your academic and personal details up-to-date.
+-   **Profil Pengguna:** Pertahankan dan perbarui informasi profil Anda, menjaga detail akademis dan pribadi Anda tetap terbaru.
 
--   **Responsive Design:** Enjoy a seamless experience across all devices, thanks to our responsive and adaptive design.
+-   **Desain Responsif:** Nikmati pengalaman yang mulus di semua perangkat, berkat desain responsif dan adaptif kami.
 
 <p align="center">
-  <img  src="public/images/Mobile-Screen" width="450">
+  <img  src="public/images/Mobile-Screen.JPG" width="200">
 </p>
 
 <p align="center">
-  <img  src="public/images/Macbook" width="450">
+  <img  src="public/images/Macbook.JPG" width="200">
 </p>
 
 <p align="center">
-  <img  src="public/images/Ipad-Screen" width="450">
+  <img  src="public/images/Ipad-Screen.JPG" width="200">
 </p>
 
 ## Contributors
 
-This project follows the [Contributors](https://github.com/Ilhanhj/cheesecool-project) we welcome contributions from the community! If you are interested in contributing to CheeseCool University, please follow our contributing guidelines to get started..
+Proyek ini mengikuti [Kontributor](https://github.com/Ilhanhj/cheesecool-project), kami menyambut kontribusi dari komunitas! Jika Anda tertarik untuk berkontribusi ke Universitas CheeseCool, silakan ikuti pedoman kontribusi kami untuk memulai.
 
 ## Technologies
 
--   [![JavaScript][javascript.com]][JavaScript-url]
--   [![php][php.net]][php-url]
--   [![Tailwind CSS][tailwindcss.com]][TailwindCSS-url]
--   [![Laravel][Laravel.com]][Laravel-url]
+-   [![JavaScript][javascript-badge]][JavaScript-url]
+-   [![PHP][php-badge]][php-url]
+-   [![Tailwind CSS][tailwindcss-badge]][TailwindCSS-url]
+-   [![Laravel][laravel-badge]][Laravel-url]
+
+[javascript-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://www.javascript.com
+[php-badge]: https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
+[php-url]: https://www.php.net
+[tailwindcss-badge]: https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com
+[laravel-badge]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
 
 ## Getting Started
 
-Make sure that you have setup the environment properly. You will need minimum PHP 8.2, MySQL/MariaDB, and composer. To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Pastikan Anda telah mengatur lingkungan dengan benar. Anda akan membutuhkan minimal PHP 8.2, MySQL/MariaDB, dan composer. Untuk mengkloning dan menjalankan aplikasi ini, Anda memerlukan [Git](https://git-scm.com) dan [Node.js](https://nodejs.org/en/download/) (yang sudah dilengkapi [npm](http://npmjs.com)) yang terinstal di komputer Anda. . dari command line anda :
 
 ```bash
 # Clone this repository
