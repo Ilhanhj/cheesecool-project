@@ -5,6 +5,7 @@
 <div class="relative overflow-hidden">    
   <div class="before:absolute before:top-0 before:start-1/2 before:bg-balls before:bg-no-repeat before:bg-center before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap-team">
 @section('container')
+<div class="z-10 absolute" id="particles-js"></div>
     <div class="py-5">
         <div class="container px-6 mx-auto md:px-12 xl:px-32">
           <div class="mb-5">

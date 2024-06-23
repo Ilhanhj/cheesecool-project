@@ -17,7 +17,6 @@
     },
     "dependencies": {
         "aos": "^2.3.4",
-        "particles.js": "^2.0.0",
         "gsap": "^3.12.5",
         "preline": "^2.3.0",
         "taos": "^1.0.5"
