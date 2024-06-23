@@ -1,65 +1,96 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
+<h1 align="center"> CheeseCool University </h1> <br>
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img alt="CheeseCool" title="CheeseCool" src="public/images/logo.png" width="450">
 </p>
 
-## About Laravel
+<p align="center">
+  Welcome to the best Indonesian University
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Table of Contents
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   [Introduction](#introduction)
+-   [Features](#features)
+-   [Contributors](#contributors)
+-   [Technologies](#technologies)
+-   [Getting Started](#gettingstarted)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Introduction
 
-## Learning Laravel
+Welcome to CheeseCool University, an innovative and student-centered educational platform designed to provide an exceptional learning experience for students and educators alike. Our mission is to cultivate a nurturing and inspiring environment that fosters academic excellence, personal growth, and professional development.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Demo Preview**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="center">
+  <img src = "https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225" width=500>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Features
 
-## Laravel Sponsors
+-   **Comprehensive Dashboard:** Access all essential information and manage your academic activities with ease.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+-   **Student Management:** Track student progress, manage enrollments, and communicate effectively.
 
-### Premium Partners
+-   **Program Management:** Explore various programs and courses offered, ensuring a diverse and inclusive curriculum.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+-   **Interactive Sidebar:** Navigate through the platform with an intuitive and user-friendly sidebar.
 
-## Contributing
+-   **User Profile:** Maintain and update your profile information, keeping your academic and personal details up-to-date.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   **Responsive Design:** Enjoy a seamless experience across all devices, thanks to our responsive and adaptive design.
 
-## Code of Conduct
+<p align="center">
+  <img  src="public/images/Mobile-Screen" width="450">
+</p>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align="center">
+  <img  src="public/images/Macbook" width="450">
+</p>
 
-## Security Vulnerabilities
+<p align="center">
+  <img  src="public/images/Ipad-Screen" width="450">
+</p>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Contributors
+
+This project follows the [Contributors](https://github.com/Ilhanhj/cheesecool-project) we welcome contributions from the community! If you are interested in contributing to CheeseCool University, please follow our contributing guidelines to get started..
+
+## Technologies
+
+-   [![JavaScript][javascript.com]][JavaScript-url]
+-   [![php][php.net]][php-url]
+-   [![Tailwind CSS][tailwindcss.com]][TailwindCSS-url]
+-   [![Laravel][Laravel.com]][Laravel-url]
+
+## Getting Started
+
+Make sure that you have setup the environment properly. You will need minimum PHP 8.2, MySQL/MariaDB, and composer. To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Ilhanhj/cheesecool-project.git
+
+# Go into the repository
+$ cd cheesecool-project
+
+# Install dependencies
+$ npm install
+$ composer install
+
+# Copy Environment
+`cp. env.example .env`
+
+# Generate Key
+$ php artisan key:generate
+
+# Configure Databases
+$ php artisan migrate:fresh -seed
+
+# Run the app
+$ npm run dev
+$ php artisan ser
+
+```
 
 ## License
 
