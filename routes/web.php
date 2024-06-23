@@ -51,15 +51,3 @@ Route::middleware('auth')->group(function () {
 Route::resource('/dashboard/jurusan', JurusanController::class)
     ->except('show')
     ->middleware('admin');
-
-// Route::get('/template-1', function () {
-//     return view('/template-1',[
-//         'title' => 'Template 1'
-//     ]);
-// });
-
-// Route::get('/template-2', function () {
-//     return view('/template-2',[
-//         'title' => 'Template 2'
-//     ]);
-// });

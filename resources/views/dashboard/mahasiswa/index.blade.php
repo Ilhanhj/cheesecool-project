@@ -136,7 +136,9 @@
                 <td class="  border-e dark:border-neutral-700">
                   
                     <span class="block px-6 py-2">
-                      <span class="text-sm text-gray-600 dark:text-neutral-400">{{ $loop->iteration }}</span>
+                      <span class="text-sm text-gray-600 dark:text-neutral-400">                    
+                        {{ ($calonMahasiswas->currentPage() - 1) * $calonMahasiswas->perPage() + $loop->iteration }}
+                      </span>
                     </span>
                   
                 </td>

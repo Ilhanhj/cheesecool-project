@@ -3,7 +3,7 @@
 @section('container')
 
 <div class="relative overflow-hidden lg:py-10 pb-80" >
-    <div class=" before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowCenter before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
+    <div class=" before:absolute before:-top-60 lg:before:top-0 before:start-1/2 before:bg-glowRectBig before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2" id="bg-gsap">
     <div class="flex justify-center min-h-screen" >
         <div class="hidden bg-cover lg:block lg:w-2/5" style="background-image: url('/images/register-bg.png')" id="img-ilhan">
         </div>
