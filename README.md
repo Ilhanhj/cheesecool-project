@@ -91,7 +91,7 @@ $ composer install
 $ php artisan key:generate
 
 # Configure Databases
-$ php artisan migrate:fresh -seed
+$ php artisan migrate:fresh --seed
 
 # Run the app
 $ npm run dev
