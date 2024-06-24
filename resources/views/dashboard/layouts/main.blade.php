@@ -20,6 +20,7 @@
     border: none !important;
     box-shadow: none !important;
   }
+  
     </style>
     <title>{{ $title }}</title>
 </head>
@@ -31,7 +32,6 @@
   
   @include('sweetalert::alert')
         @yield('container')
-
       </body>
       
 <!-- JS PLUGINS -->
