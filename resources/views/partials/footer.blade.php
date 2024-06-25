@@ -1,5 +1,4 @@
     <!-- ========== FOOTER ========== -->
-    
     <footer class="w-full py-14 relative overflow-hidden before:absolute before:-top-5 lg:before:top-0 before:start-1/2 before:bg-none before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 ">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto">

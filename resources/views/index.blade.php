@@ -922,10 +922,10 @@
     </div>
 </div>
     <!-- ========== END CONTACT ========== -->
+     <!-- ========== Scroll to Top ========== -->
+<button id="scrollToTopButton" class="fixed bottom-12 right-12 border border-purple-600 bg-oldNavy transition-all duration-200 rounded-full hidden rocket-icon" style="background-image: url('images/rocket.png'); background-size: auto 100%;  background-position: center; width: 60px; height: 60px; z-index: 100; ">
+</button>
 
-
-
-
-
+<!-- ========== End Scroll to Top ========== -->
 
 @endsection
