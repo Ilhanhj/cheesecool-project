@@ -144,50 +144,6 @@ gsap.to(".astronaut", {
     },
 });
 
-//gsap scroll to top button
-let rocketTween = null;
-
-function startAnimation() {
-    if (rocketTween) {
-        rocketTween.kill();
-    }
-    rocketTween = gsap.to(".rocket-icon", {
-        x: 20,
-        duration: 0.5,
-        ease: "power1.inOut",
-        repeat: -1,
-        yoyo: true,
-    });
-}
-
-function stopAnimation() {
-    if (rocketTween) {
-        rocketTween.pause();
-        gsap.set(".rocket-icon", { x: 10 });
-    }
-}
-
-function onClick() {
-    gsap.to("#scrollToTopButton", {
-        y: -500,
-        duration: 0.9,
-        ease: "power1.inOut",
-        onComplete: function () {
-            gsap.set("#scrollToTopButton", { y: 0 });
-        },
-    });
-}
-
-document
-    .getElementById("scrollToTopButton")
-    .addEventListener("mouseenter", startAnimation);
-
-document
-    .getElementById("scrollToTopButton")
-    .addEventListener("mouseleave", stopAnimation);
-
-document.getElementById("scrollToTopButton").addEventListener("click", onClick);
-
 //particleJS
 particlesJS({
     particles: {
@@ -299,6 +255,50 @@ particlesJS({
     },
     retina_detect: true,
 });
+
+//gsap scroll to top button
+let rocketTween = null;
+
+function startAnimation() {
+    if (rocketTween) {
+        rocketTween.kill();
+    }
+    rocketTween = gsap.to(".rocket-icon", {
+        x: 20,
+        duration: 0.5,
+        ease: "power1.inOut",
+        repeat: -1,
+        yoyo: true,
+    });
+}
+
+function stopAnimation() {
+    if (rocketTween) {
+        rocketTween.pause();
+        gsap.set(".rocket-icon", { x: 10 });
+    }
+}
+
+function onClick() {
+    gsap.to("#scrollToTopButton", {
+        y: -500,
+        duration: 0.9,
+        ease: "power1.inOut",
+        onComplete: function () {
+            gsap.set("#scrollToTopButton", { y: 0 });
+        },
+    });
+}
+
+document
+    .getElementById("scrollToTopButton")
+    .addEventListener("mouseenter", startAnimation);
+
+document
+    .getElementById("scrollToTopButton")
+    .addEventListener("mouseleave", stopAnimation);
+
+document.getElementById("scrollToTopButton").addEventListener("click", onClick);
 
 //ScrolltoTopButton
 document.addEventListener("DOMContentLoaded", function () {
