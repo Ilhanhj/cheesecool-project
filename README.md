@@ -24,7 +24,7 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225
 
 <p align="center">
-  <img  src="public/images/fullpage.png" width="800">
+  <img  src="public/images/fullpage.png" width="1000">
 </p>
 
 ## Features
@@ -44,25 +44,25 @@ https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-425
 **Admin Preview**
 
 <p align="center">
-  <img  src="public/images/admin-dash.PNG" width="500">
+  <img  src="public/images/admin-dash.PNG" width="1000">
 </p>
 
 <p align="center">
-  <img  src="public/images/adm-table.PNG" width="500">
+  <img  src="public/images/adm-table.PNG" width="1000">
 </p>
 
 <p align="center">
-  <img  src="public/images/admin-stud.PNG" width="500">
+  <img  src="public/images/admin-stud.PNG" width="1000">
 </p>
 
 **Mahasiswa Preview**
 
 <p align="center">
-  <img  src="public/images/mhs-dash.PNG" width="500">
+  <img  src="public/images/mhs-dash.PNG" width="1000">
 </p>
 
 <p align="center">
-  <img  src="public/images/mhs-tabel.PNG" width="500">
+  <img  src="public/images/mhs-tabel.PNG" width="1000">
 </p>
 
 ## Contributors
