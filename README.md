@@ -126,6 +126,7 @@ $ php artisan migrate:fresh --seed
 
 # Run the app
 - Buka 2 terminal untuk menjalankan 2 command line dibawah ini
+
 $ npm run dev
 $ php artisan ser
 
