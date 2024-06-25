@@ -1,6 +1,6 @@
 <h1 align="center"> CheeseCool University </h1> <br>
 <p align="center">
-    <img alt="CheeseCool" title="CheeseCool" src="public/images/register-bg.png" width="450">
+    <img alt="CheeseCool" title="CheeseCool" src="public/images/register-bg.png" width="300">
 </p>
 
 <p align="center">
@@ -21,7 +21,11 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 
 **Demo Preview**
 
-"https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225"
+https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225
+
+<p align="center">
+  <img  src="public/images/fullpage.PNG" width="500">
+</p>
 
 ## Features
 
@@ -37,16 +41,28 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 
 -   **Desain Responsif:** Nikmati pengalaman yang mulus di semua perangkat, berkat desain responsif dan adaptif kami.
 
+**Admin Preview**
+
 <p align="center">
-  <img  src="public/images/Mobile-Screen.JPG" width="200">
+  <img  src="public/images/admin-dash.PNG" width="500">
 </p>
 
 <p align="center">
-  <img  src="public/images/Macbook.JPG" width="200">
+  <img  src="public/images/adm-table.PNG" width="500">
 </p>
 
 <p align="center">
-  <img  src="public/images/Ipad-Screen.JPG" width="200">
+  <img  src="public/images/admin-stud.PNG" width="500">
+</p>
+
+**Mahasiswa Preview**
+
+<p align="center">
+  <img  src="public/images/mhs-dash.PNG" width="500">
+</p>
+
+<p align="center">
+  <img  src="public/images/mhs-tabel.PNG" width="500">
 </p>
 
 ## Contributors
@@ -71,7 +87,7 @@ Proyek ini mengikuti [Kontributor](https://github.com/Ilhanhj/cheesecool-project
 
 ## Getting Started
 
-Pastikan Anda telah mengatur lingkungan dengan benar. Anda akan membutuhkan minimal PHP 8.2, MySQL/MariaDB, dan composer. Untuk mengkloning dan menjalankan aplikasi ini, Anda memerlukan [Git](https://git-scm.com) dan [Node.js](https://nodejs.org/en/download/) (yang sudah dilengkapi [npm](http://npmjs.com)) yang terinstal di komputer Anda. . dari command line anda :
+Pastikan Anda telah mengatur lingkungan dengan benar. Anda akan membutuhkan minimal PHP 8.2, MySQL/MariaDB, dan composer. Import database `cheesecool_project.sql` pada localhost phpmyadmin. Untuk mengkloning dan menjalankan aplikasi ini, Anda memerlukan [Git](https://git-scm.com) dan [Node.js](https://nodejs.org/en/download/) (yang sudah dilengkapi [npm](http://npmjs.com)) yang terinstal di komputer Anda. dari command line anda :
 
 ```bash
 # Clone this repository
