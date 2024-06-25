@@ -24,7 +24,7 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225
 
 <p align="center">
-  <img  src="public/images/fullpage.PNG" width="500">
+  <img  src="public/images/fullpage.png" width="500">
 </p>
 
 ## Features
@@ -87,7 +87,18 @@ Proyek ini mengikuti [Kontributor](https://github.com/Ilhanhj/cheesecool-project
 
 ## Getting Started
 
-Pastikan Anda telah mengatur lingkungan dengan benar. Anda akan membutuhkan minimal PHP 8.2, MySQL/MariaDB, dan composer. Import database `cheesecool_project.sql` pada localhost phpmyadmin. Untuk mengkloning dan menjalankan aplikasi ini, Anda memerlukan [Git](https://git-scm.com) dan [Node.js](https://nodejs.org/en/download/) (yang sudah dilengkapi [npm](http://npmjs.com)) yang terinstal di komputer Anda. dari command line anda :
+Pastikan Anda telah mengatur environment dengan benar. 
+Tools yang dibutuhkan :
+
+- PHP 8.2 
+- MySQL/MariaDB
+- Composer
+- Git
+- Node.js
+
+#Installation
+
+- Untuk menjalankan  aplikasi ini dari command line anda ikuti perintah berikut :
 
 ```bash
 # Clone this repository
@@ -106,10 +117,15 @@ $ composer install
 # Generate Key
 $ php artisan key:generate
 
+# Import Database
+- Buat database dengan nama cheesecool_project
+- Import database `cheesecool_project.sql` pada localhost phpmyadmin.
+
 # Configure Databases
 $ php artisan migrate:fresh --seed
 
 # Run the app
+- Buka 2 terminal untuk menjalankan 2 command line dibawah ini
 $ npm run dev
 $ php artisan ser
 
