@@ -21,7 +21,6 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 
 **Demo Preview**
 
- # https://github.com/Ilhanhj/cheesecool-project/assets/167060788/4400b3e0-ada7-4258-ae41-1e04859be225
 
 <p align="center">
   <img  src="public/images/team-cap.png" width="1000">
