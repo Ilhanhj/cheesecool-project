@@ -100,7 +100,8 @@ Tools yang dibutuhkan :
 
 #Installation
 
-- Untuk menjalankan  aplikasi ini buka terminal lalu ikuti perintah berikut :
+- Untuk menjalankan aplikasi ini pastikan anda terhubung ke internet
+- Buka terminal lalu ikuti perintah berikut :
 
 ```bash
 # Clone this repository
