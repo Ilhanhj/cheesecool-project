@@ -112,14 +112,14 @@ $ npm install
 $ composer install
 
 # Copy Environment
-`cp. env.example .env`
+`cp .env.example .env`
 
 # Generate Key
 $ php artisan key:generate
 
 # Import Database
 - Buat database dengan nama cheesecool_project
-- Import database `cheesecool_project.sql` pada localhost phpmyadmin.
+- Import database `cheesecool_project.sql` yang berada di folder utama lalu import di localhost phpmyadmin.
 
 # Configure Databases
 $ php artisan migrate:fresh --seed
