@@ -9,10 +9,10 @@
               </a>
             </div>
                     <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-neutral-200">
-                        <li><a href="{{ route('index') }}#tentang" class="inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">TENTANG</a></li>
-                        <li><a href="{{ route('index') }}#jurusan" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">JURUSAN</a></li>
-                        <li><a href="/team" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">TIM</a></li>
-                        <li><a href="{{ route('index') }}#contact" class=" inline-block font-medium focus:text-white hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300">CONTACT</a></li>
+                        <li><a href="{{ route('index') }}#tentang" class="inline-block font-medium focus:text-white hover:text-neutral-600 text-neutral-400 hover:text-neutral-300">TENTANG</a></li>
+                        <li><a href="{{ route('index') }}#jurusan" class=" inline-block font-medium focus:text-white hover:text-neutral-600 text-neutral-400 hover:text-neutral-300">JURUSAN</a></li>
+                        <li><a href="/team" class=" inline-block font-medium focus:text-white hover:text-neutral-600 text-neutral-400 hover:text-neutral-300">TIM</a></li>
+                        <li><a href="{{ route('index') }}#contact" class=" inline-block font-medium focus:text-white hover:text-neutral-600 text-neutral-400 hover:text-neutral-300">CONTACT</a></li>
                     </ul>
                     <div class="flex space-x-10 justify-center items-center mb-14">
                         <a href="https://x.com/Baleehash_" class="block  text-purple-600 transition-all duration-500 hover:text-indigo-600 ">

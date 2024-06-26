@@ -44,12 +44,12 @@
           <!-- End Title -->
       
           <div class="max-w-xl mx-auto mt-5 text-center">
-            <p class="text-sm lg:text-lg text-gray-600 dark:text-neutral-400" id="hero-text">Menyiapkan Generasi Pemimpin Masa Depan dengan Pendidikan Berkualitas</p>
+            <p class="text-sm lg:text-lg text-gray-600 text-neutral-400" id="hero-text">Menyiapkan Generasi Pemimpin Masa Depan dengan Pendidikan Berkualitas</p>
           </div>
       
           <!-- Buttons -->
           <div class="flex justify-center gap-3 mt-8" id="hero-text">
-            <a class="inline-flex items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-full gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 dark:focus:ring-offset-gray-800" href="#">
+            <a class="inline-flex items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-full gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:ring-offset-gray-800" href="#">
               <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM12.1779 7.17624C11.8055 7.06167 11.41 7 11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 10.59 14.9383 10.1945 14.8238 9.82212C14.5102 10.5166 13.8115 11 13 11C11.8954 11 11 10.1046 11 9C11 8.18846 11.4834 7.48982 12.1779 7.17624Z"></path></svg>
               Jelajahi Sekarang
             </a>
@@ -115,33 +115,33 @@
         <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist"data-aos="fade-up" data-aos-delay="200">
 
 
-          <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg active" id="tabs-with-card-item-1 " data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab" data-aos="zoom-in-down" data-aos-delay="600">
+          <button type="button" class="hs-tab-active:bg-slate-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md hs-tab-active:bg-slate-900 hover:bg-slate-800 hs-tab-active:shadow-lg active" id="tabs-with-card-item-1 " data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab" data-aos="zoom-in-down" data-aos-delay="600">
             <span class="flex">
-              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 11.3333L0 9L12 2L24 9V17.5H22V10.1667L20 11.3333V18.0113L19.7774 18.2864C17.9457 20.5499 15.1418 22 12 22C8.85817 22 6.05429 20.5499 4.22263 18.2864L4 18.0113V11.3333ZM6 12.5V17.2917C7.46721 18.954 9.61112 20 12 20C14.3889 20 16.5328 18.954 18 17.2917V12.5L12 16L6 12.5ZM3.96927 9L12 13.6846L20.0307 9L12 4.31541L3.96927 9Z"></path></svg>
+              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 11.3333L0 9L12 2L24 9V17.5H22V10.1667L20 11.3333V18.0113L19.7774 18.2864C17.9457 20.5499 15.1418 22 12 22C8.85817 22 6.05429 20.5499 4.22263 18.2864L4 18.0113V11.3333ZM6 12.5V17.2917C7.46721 18.954 9.61112 20 12 20C14.3889 20 16.5328 18.954 18 17.2917V12.5L12 16L6 12.5ZM3.96927 9L12 13.6846L20.0307 9L12 4.31541L3.96927 9Z"></path></svg>
               <span class="grow ms-6">
-                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200">Kerja dan Magang Internasional</span>
-                <span class="block mt-1 text-md lg:text-lg text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-neutral-200">Peluang magang di luar negeri, pertukaran pelajar, dan proyek kolaboratif dengan universitas global.</span>
+                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200">Kerja dan Magang Internasional</span>
+                <span class="block mt-1 text-md lg:text-lg text-gray-800 hs-tab-active:text-gray-200 text-neutral-200">Peluang magang di luar negeri, pertukaran pelajar, dan proyek kolaboratif dengan universitas global.</span>
               </span>
             </span>
           </button>
 
-          <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg" id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
+          <button type="button" class="hs-tab-active:bg-slate-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md hs-tab-active:bg-slate-900 hover:bg-slate-800 hs-tab-active:shadow-lg" id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
             <span class="flex">
-              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 1L13.001 4.06201C16.6192 4.51365 19.4869 7.38163 19.9381 11L23 11V13L19.938 13.001C19.4864 16.6189 16.6189 19.4864 13.001 19.938L13 23H11L11 19.9381C7.38163 19.4869 4.51365 16.6192 4.06201 13.001L1 13V11L4.06189 11C4.51312 7.38129 7.38129 4.51312 11 4.06189L11 1H13ZM12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z"></path></svg>
+              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 1L13.001 4.06201C16.6192 4.51365 19.4869 7.38163 19.9381 11L23 11V13L19.938 13.001C19.4864 16.6189 16.6189 19.4864 13.001 19.938L13 23H11L11 19.9381C7.38163 19.4869 4.51365 16.6192 4.06201 13.001L1 13V11L4.06189 11C4.51312 7.38129 7.38129 4.51312 11 4.06189L11 1H13ZM12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z"></path></svg>
               <span class="grow ms-6">
-                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200">Fokus pada Inovasi dan Teknologi
+                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200">Fokus pada Inovasi dan Teknologi
                 </span>
-                <span class="block mt-1 text-md lg:text-lg text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-neutral-200">Belajar dari para ahli dan akses ke fasilitas penelitian mutakhir di bidang teknologi informasi.</span>
+                <span class="block mt-1 text-md lg:text-lg text-gray-800 hs-tab-active:text-gray-200 text-neutral-200">Belajar dari para ahli dan akses ke fasilitas penelitian mutakhir di bidang teknologi informasi.</span>
               </span>
             </span>
           </button>
 
-          <button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md dark:hs-tab-active:bg-slate-900 dark:hover:bg-slate-800 dark:hs-tab-active:shadow-lg" id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3" role="tab">
+          <button type="button" class="hs-tab-active:bg-slate-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-md hs-tab-active:bg-slate-900 hover:bg-slate-800 hs-tab-active:shadow-lg" id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3" role="tab">
             <span class="flex">
-              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.23509 6.45329C4.85101 7.89148 4 9.84636 4 12C4 16.4183 7.58172 20 12 20C13.0808 20 14.1116 19.7857 15.0521 19.3972C15.1671 18.6467 14.9148 17.9266 14.8116 17.6746C14.582 17.115 13.8241 16.1582 12.5589 14.8308C12.2212 14.4758 12.2429 14.2035 12.3636 13.3943L12.3775 13.3029C12.4595 12.7486 12.5971 12.4209 14.4622 12.1248C15.4097 11.9746 15.6589 12.3533 16.0043 12.8777C16.0425 12.9358 16.0807 12.9928 16.1198 13.0499C16.4479 13.5297 16.691 13.6394 17.0582 13.8064C17.2227 13.881 17.428 13.9751 17.7031 14.1314C18.3551 14.504 18.3551 14.9247 18.3551 15.8472V15.9518C18.3551 16.3434 18.3168 16.6872 18.2566 16.9859C19.3478 15.6185 20 13.8854 20 12C20 8.70089 18.003 5.8682 15.1519 4.64482C14.5987 5.01813 13.8398 5.54726 13.575 5.91C13.4396 6.09538 13.2482 7.04166 12.6257 7.11976C12.4626 7.14023 12.2438 7.12589 12.012 7.11097C11.3905 7.07058 10.5402 7.01606 10.268 7.75495C10.0952 8.2232 10.0648 9.49445 10.6239 10.1543C10.7134 10.2597 10.7307 10.4547 10.6699 10.6735C10.59 10.9608 10.4286 11.1356 10.3783 11.1717C10.2819 11.1163 10.0896 10.8931 9.95938 10.7412C9.64554 10.3765 9.25405 9.92233 8.74797 9.78176C8.56395 9.73083 8.36166 9.68867 8.16548 9.64736C7.6164 9.53227 6.99443 9.40134 6.84992 9.09302C6.74442 8.8672 6.74488 8.55621 6.74529 8.22764C6.74529 7.8112 6.74529 7.34029 6.54129 6.88256C6.46246 6.70541 6.35689 6.56446 6.23509 6.45329ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z"></path></svg>
+              <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.23509 6.45329C4.85101 7.89148 4 9.84636 4 12C4 16.4183 7.58172 20 12 20C13.0808 20 14.1116 19.7857 15.0521 19.3972C15.1671 18.6467 14.9148 17.9266 14.8116 17.6746C14.582 17.115 13.8241 16.1582 12.5589 14.8308C12.2212 14.4758 12.2429 14.2035 12.3636 13.3943L12.3775 13.3029C12.4595 12.7486 12.5971 12.4209 14.4622 12.1248C15.4097 11.9746 15.6589 12.3533 16.0043 12.8777C16.0425 12.9358 16.0807 12.9928 16.1198 13.0499C16.4479 13.5297 16.691 13.6394 17.0582 13.8064C17.2227 13.881 17.428 13.9751 17.7031 14.1314C18.3551 14.504 18.3551 14.9247 18.3551 15.8472V15.9518C18.3551 16.3434 18.3168 16.6872 18.2566 16.9859C19.3478 15.6185 20 13.8854 20 12C20 8.70089 18.003 5.8682 15.1519 4.64482C14.5987 5.01813 13.8398 5.54726 13.575 5.91C13.4396 6.09538 13.2482 7.04166 12.6257 7.11976C12.4626 7.14023 12.2438 7.12589 12.012 7.11097C11.3905 7.07058 10.5402 7.01606 10.268 7.75495C10.0952 8.2232 10.0648 9.49445 10.6239 10.1543C10.7134 10.2597 10.7307 10.4547 10.6699 10.6735C10.59 10.9608 10.4286 11.1356 10.3783 11.1717C10.2819 11.1163 10.0896 10.8931 9.95938 10.7412C9.64554 10.3765 9.25405 9.92233 8.74797 9.78176C8.56395 9.73083 8.36166 9.68867 8.16548 9.64736C7.6164 9.53227 6.99443 9.40134 6.84992 9.09302C6.74442 8.8672 6.74488 8.55621 6.74529 8.22764C6.74529 7.8112 6.74529 7.34029 6.54129 6.88256C6.46246 6.70541 6.35689 6.56446 6.23509 6.45329ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z"></path></svg>
               <span class="grow ms-6">
-                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 dark:hs-tab-active:text-purple-500 dark:text-neutral-200">Studi Pertukaran Budaya Global</span>
-                <span class="block mt-1 text-md lg:text-lg text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-neutral-200">Temukan kekayaan budaya dunia di universitas mitra di berbagai negara.</span>
+                <span class="block text-md lg:text-lg font-semibold hs-tab-active:text-purple-600 text-gray-800 hs-tab-active:text-purple-500 text-neutral-200">Studi Pertukaran Budaya Global</span>
+                <span class="block mt-1 text-md lg:text-lg text-gray-800 hs-tab-active:text-gray-200 text-neutral-200">Temukan kekayaan budaya dunia di universitas mitra di berbagai negara.</span>
               </span>
             </span>
           </button>
@@ -194,7 +194,7 @@
       </div>
       <!-- End Title -->
       <div class="w-full px-4 mt-5 text-center lg:pb-20" data-aos="fade-up" data-aos-delay="200">
-        <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400"> Berbagai program studi unggulan dengan kurikulum yang terbaik.</p>
+        <p class="text-md lg:text-lg text-gray-600 text-neutral-400"> Berbagai program studi unggulan dengan kurikulum yang terbaik.</p>
       </div>
     <!-- Icon Blocks -->
   <div class="max-w-[85rem] px-10 py-10 sm:px-6 lg:px-32 lg:py-14 mx-auto">
@@ -297,7 +297,7 @@
                 </h1>
             </div>
             <div class="w-full  text-center lg:text-left"  data-aos="fade-right" data-aos-delay="500">
-              <p class="text-md lg:text-lg text-gray-600 dark:text-neutral-400">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum  relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
+              <p class="text-md lg:text-lg text-gray-600 text-neutral-400">Universitas Cheesecool dikenal dengan pendidikan unggul, dosen berpengalaman, dan fasilitas modern. Kurikulum  relevan dengan industri, memastikan lulusan siap bersaing di pasar kerja.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
@@ -391,7 +391,7 @@
     <div class="px-10 mx-auto max-w-5xl  sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text" data-aos="zoom-in" data-aos-delay="300">Alur Pendaftaran</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="slide-up" data-aos-delay="500">
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 text-neutral-400 lg:text-xl lg:leading-8" data-aos="slide-up" data-aos-delay="500">
                 Kesempatan gratis menjadi professor dengan empat langkah
             </p>
         </div>
@@ -514,7 +514,7 @@
     <!-- ========== TESTIMONIAL ========== -->
     <div class="text-center py-16 md:py-32 lg:py-32">
             <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text" data-aos="fade-zoom-in" data-aos-delay="300">Cheesecool Hall of Fame</h2>
-            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="flip-left" data-aos-delay="300">
+            <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 text-neutral-400 lg:text-xl lg:leading-8" data-aos="flip-left" data-aos-delay="300">
             Lulusan terbaik Cheesecool University yang terkenal memberikan testimoni tentang pengalamannya di kampus.
             </p>
     </div>
@@ -734,7 +734,7 @@
   <div class="max-w-3xl mx-auto text-center mb-10">
     <div class="text-center py-16 md:py-32">
       <h2 class="font-semibold text-2xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 inline-block text-transparent bg-clip-text pb-1" data-aos="flip-down" data-aos-delay="300" data-aos-offset="200">Pertanyaan Anda, Terjawab</h2>
-      <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 dark:text-neutral-400 lg:text-xl lg:leading-8" data-aos="fade-right" data-aos-offset="300">
+      <p class="mx-auto mt-4 max-w-2xl lg:px-12 text-lg font-normal text-gray-600 text-neutral-400 lg:text-xl lg:leading-8" data-aos="fade-right" data-aos-offset="300">
         Jawaban untuk pertanyaan yang paling sering diajukan.</p>
   </div>
   </div>
@@ -743,79 +743,79 @@
   <div class="max-w-2xl mx-auto">
     <!-- Accordion -->
     <div class="hs-accordion-group">
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900 active" id="hs-basic-with-title-and-arrow-stretched-heading-one"  data-aos="zoom-in-down" data-aos-offset="300">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900 active" id="hs-basic-with-title-and-arrow-stretched-heading-one"  data-aos="zoom-in-down" data-aos-offset="300">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
         Bagaimana cara mendaftar di Cheesecool University?
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
           Anda dapat mendaftar secara online melalui situs web resmi Cheesecool University dengan mengisi formulir pendaftaran dan mengunggah dokumen yang diperlukan.
           </p>
         </div>
       </div>
 
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-two">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
         Bagaimana proses seleksi penerimaan?
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
           Proses seleksi melibatkan penilaian dokumen akademis, ujian masuk, dan wawancara. 
           </p>
         </div>
       </div>
 
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-three">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-three">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
         Apakah ada beasiswa yang ditawarkan?
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
             Tidak, Karena di Cheesecool University bebas dari segala hal yang bersangkutan dengan uang
           </p>
         </div>
       </div>
 
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-four">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-four">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
           Siapa pendiri Cheesecool University
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-four" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
             Tahun 2049, Mr.Hanball membuat Cheesecool University dan disitulah pendidikan di planet name-x meningkat secara tidak normal.
           </p>
         </div>
       </div>
 
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-five">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-five">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
         Bagaimana cara mendapatkan informasi tentang program studi yang ditawarkan?
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-five" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
           Informasi mengenai program studi yang ditawarkan, termasuk kurikulum, fakultas, dan peluang karir, dapat ditemukan di halaman program studi di situs web Cheesecool University.
           </p>
         </div>
       </div>
 
-      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-six">
-        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
+      <div class="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 hs-accordion-active:bg-slate-900" id="hs-basic-with-title-and-arrow-stretched-heading-six">
+        <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 text-neutral-200 hover:text-purple-500" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
         Apa saja fasilitas yang tersedia di kampus?
-          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+          <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          <svg class="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
         </button>
         <div id="hs-basic-with-title-and-arrow-stretched-collapse-six" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
-          <p class="text-gray-800 dark:text-neutral-200">
+          <p class="text-gray-800 text-neutral-200">
           Cheesecool University menyediakan fasilitas modern termasuk perpustakaan, laboratorium, pusat olahraga, dan asrama mahasiswa.
           </p>
         </div>
@@ -841,7 +841,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <span class="mx-2 text-gray-700 truncate dark:text-gray-400"  data-aos="zoom-in-down" data-aos-offset="300">
+                        <span class="mx-2 text-gray-700 truncate text-gray-400"  data-aos="zoom-in-down" data-aos-offset="300">
                         Jl. Soeharto No.666, Cisaranten Kulon, Kota Bandung.
                         </span>
                     </p>
@@ -850,7 +850,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">+62 812 3456 789</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 text-gray-400">+62 812 3456 789</span>
                     </p>
 
                     <p class="flex items-start -mx-2">
@@ -858,33 +858,33 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">CheesecoolUniversity@gmail.com</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 text-gray-400">CheesecoolUniversity@gmail.com</span>
                     </p>
                 </div>
 
                 <div class="mt-6 w-80 md:mt-8"  data-aos="zoom-in-down" data-aos-offset="100">
-                    <h3 class="text-gray-600 dark:text-gray-300 ">Ikuti Kami</h3>
+                    <h3 class="text-gray-600 text-gray-300 ">Ikuti Kami</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://x.com/Baleehash_">
+                        <a class="mx-1.5 hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://x.com/Baleehash_">
                         <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
                             <path d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z" fill="currentColor"/>
                           </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.instagram.com/baleehash_/">
+                        <a class="mx-1.5 hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.instagram.com/baleehash_/">
                         <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
                             </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.facebook.com/Baleeehash?_rdc=1&_rdr">
+                        <a class="mx-1.5 hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.facebook.com/Baleeehash?_rdc=1&_rdr">
                          <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
                             </svg>
                         </a>
 
-                        <a class="mx-1.5 dark:hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.youtube.com/watch?v=uHgt8giw1LY">
+                        <a class="mx-1.5 hover:text-indigo-600 text-purple-600 transition-colors duration-300 transform hover:text-purple-600" href="https://www.youtube.com/watch?v=uHgt8giw1LY">
                         <svg class="w-8 h-8" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z" fill="currentColor"/>
                               </svg>
@@ -898,21 +898,21 @@
                     class="w-full px-8 py-10 mx-auto overflow-hidden lg:max-w-xl">
                     <form class="mt-6">
                         <div class="flex-1">
-                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Nama</label>
-                            <input type="text" placeholder="Name" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            <label class="block mb-2 text-sm text-gray-600 text-gray-200">Nama</label>
+                            <input type="text" placeholder="Name" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md placeholder-gray-600 bg-oldNavy text-gray-300 border-gray-700 focus:border-purple-600 focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 
                         <div class="flex-1 mt-6">
-                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Alamat Email</label>
-                            <input type="email" placeholder="Email" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            <label class="block mb-2 text-sm text-gray-600 text-gray-200">Alamat Email</label>
+                            <input type="email" placeholder="Email" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md placeholder-gray-600 bg-oldNavy text-gray-300 border-gray-700 focus:border-purple-600 focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 
                         <div class="w-full mt-6">
-                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Pesan</label>
-                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-oldNavy dark:text-gray-300 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                            <label class="block mb-2 text-sm text-gray-600 text-gray-200">Pesan</label>
+                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-md md:h-48 placeholder-gray-600 bg-oldNavy text-gray-300 border-gray-700 focus:border-purple-600 focus:border-purple-600 focus:ring-purple-500 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button class="w-full lg:px-6 lg:py-3 lg:mt-6   tracking-wide text-white capitalize mt-10 inline-flex col-span-2 items-center justify-center px-4 py-3 text-sm font-medium text-center  border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 dark:focus:ring-offset-gray-800">
+                        <button class="w-full lg:px-6 lg:py-3 lg:mt-6   tracking-wide text-white capitalize mt-10 inline-flex col-span-2 items-center justify-center px-4 py-3 text-sm font-medium text-center  border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:ring-offset-gray-800">
                             Kirim Pesan
                         </button>
                     </form>
