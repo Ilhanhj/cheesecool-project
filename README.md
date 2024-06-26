@@ -93,12 +93,12 @@ Tools yang dibutuhkan :
 - PHP 8.2 
 - MySQL/MariaDB
 - Composer
-- Git
+- Git/Gitbash
 - Node.js
 
 #Installation
 
-- Untuk menjalankan  aplikasi ini dari command line anda ikuti perintah berikut :
+- Untuk menjalankan  aplikasi ini buka terminal lalu ikuti perintah berikut :
 
 ```bash
 # Clone this repository
@@ -130,6 +130,9 @@ $ php artisan migrate:fresh --seed
 $ npm run dev
 $ php artisan ser
 
+# Login
+Email : admin@gmail.com
+Pass  : 123123123
 ```
 
 ## License
