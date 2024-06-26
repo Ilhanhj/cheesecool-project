@@ -121,7 +121,7 @@ $ php artisan key:generate
 
 # Import Database
 - Buat database dengan nama cheesecool_project
-- Import database `cheesecool_project.sql` yang berada di folder utama lalu import di localhost phpmyadmin.
+- Buka file database `cheesecool_project.sql` yang berada di folder utama lalu import di localhost phpmyadmin.
 
 # Configure Databases
 $ php artisan migrate:fresh --seed
