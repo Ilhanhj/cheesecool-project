@@ -49,7 +49,7 @@
       <div class="flex items-center py-1 gap-x-2 ms-auto md:ps-6 md:order-3 md:col-span-3">
         <a href="/login" id="navbar-gsap" class="" >
             <button type="button" class="inline-flex items-center px-4 py-3 text-sm font-medium text-black border rounded-md border-neutral-200 gap-x-2 hover:bg-neutral-400 disabled:opacity-50 disabled:pointer-events-none border-neutral-600  text-white hover:text-white">
-                LOGIN
+                LOGIN 
             </button>   
         </a>
         <a href="/register" id="navbar-gsap" class="inline-flex items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:ring-offset-gray-800" href="#">
