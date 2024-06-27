@@ -827,10 +827,10 @@
 <!-- ========== END FAQ ========== -->
 
     <!-- ========== CONTACT ========== -->
-<div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 lg:px-32" id="contact"  data-aos="fade-up" data-aos-offset="300">
-    <div class="container px-10 lg:px-32 mx-auto" id="contact">
-        <div class="lg:flex lg:items-center lg:-mx-6">
-            <div class="lg:w-1/2 lg:mx-6">
+<div class="relative overflow-hidden before:absolute before:start-1/2 before:bg-glowRect before:bg-no-repeat before:bg-bottom before:size-full before:-z-[1] before:transform before:-translate-x-1/2 px-32" id="contact"  data-aos="fade-up" data-aos-offset="300">
+    <div class="container px-32 mx-auto">
+        <div class="flex lg:items-center mx-10">
+            <div class="w-1/2 mx-10">
                 <h1 class="font-semibold py-1 text-2xl lg:text-5xl md:text-4xl text-transparent from-pink-600 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0 pb-2"  data-aos="fade-left" data-aos-offset="300">
                     Hubungi Kami
                 </h1>
