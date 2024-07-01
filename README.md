@@ -121,7 +121,7 @@ $ composer install
 $ php artisan key:generate
 
 # Import Database
-- Jalankan server MySQL dengan xampp/MySQL Workbench dll.
+- Jalankan server SQL dengan xampp/MySQL Workbench dll.
 - Buat database dengan nama cheesecool_project
 - Buka file database `cheesecool_project.sql` yang berada di folder utama lalu import di localhost phpmyadmin.
 
