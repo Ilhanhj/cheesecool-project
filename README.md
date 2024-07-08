@@ -23,7 +23,7 @@ Selamat datang di Universitas CheeseCool, sebuah platform pendidikan inovatif ya
 
 
 <p align="center">
-  <img  src="public/images/team-cap.png" width="1000">
+  <img  src="public/images/team.jpg" width="1000">
 </p>
 <p align="center">
   <img  src="public/images/fullpage.png" width="1000">
